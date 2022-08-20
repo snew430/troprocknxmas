@@ -1,0 +1,34 @@
+.biography {
+  display: flex;
+  margin: 3rem;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.card {
+  width: 30%;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.bio-text {
+  width: 70%;
+  padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .biography {
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .bio-text {
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+  }
+  .card {
+    margin-right: 0px;
+  }
+}

@@ -1,0 +1,67 @@
+.home-body {
+  text-align: center;
+
+  padding-top: 0;
+  z-index: -2;
+}
+.home-body h2 {
+  color: var(--primary);
+}
+
+.home-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 5rem; */
+  width: 100%;
+  background-image: url('../../assets/images/flag.jpg');
+  /* background-repeat: repeat; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 16rem;
+}
+
+.home-header {
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 5rem;
+  font-weight: 700;
+}
+#business {
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 1.5rem;
+  color: var(--trinary);
+}
+
+/* .banner-image {
+  width: 100%;
+  position: absolute;
+  height: 15rem;
+  z-index: -1;
+  object-fit: cover;
+} */
+
+.p-text {
+  border: 5px dotted var(--trinary);
+  border-radius: 40px;
+  padding: 4rem;
+  margin: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .home-header {
+    font-size: 4rem;
+  }
+
+  .p-text {
+    border-radius: 40px;
+    padding: 0.8rem;
+  }
+
+  .home-body {
+    /* padding: 1.3rem; */
+  }
+
+  .home-banner {
+    margin-bottom: 4rem;
+  }
+}
