@@ -1,20 +1,25 @@
-.biography {
+.card {
+  /* width: 20%; */
+  /* margin-right: 15px; */
+  text-align: center;
   display: flex;
-  margin: 3rem;
-  align-items: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  justify-content: center;
 }
 
-.card {
-  width: 30%;
-  margin-right: 15px;
-  text-align: center;
+.card-image {
+  /* width: 40%; */
 }
 
 .bio-text {
   width: 70%;
-  padding: 20px;
+  padding: 10px;
+}
+
+.aboutUs {
+  display: flex;
+  width: 100vw;
+  border-bottom: 2px solid;
+  justify-content: space-around;
 }
 
 @media screen and (max-width: 800px) {

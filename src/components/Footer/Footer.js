@@ -10,7 +10,7 @@ const Footer = () => {
       <a href="https://www.twitter.com" target="_blank" rel="noreferrer">
         <BsTwitter className="icon" />
       </a>
-      <a href="mailto:xmas@inmd.com">
+      <a href="mailto:">
         <MdEmail className="icon" />
       </a>
       <a href="https://www.facebook.com" target="_blank" rel="noreferrer">

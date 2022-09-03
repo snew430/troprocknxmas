@@ -12,11 +12,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 5rem; */
   width: 100%;
-  background-image: url('../../assets/images/flag.jpg');
-  /* background-repeat: repeat; */
-  background-size: cover;
+  background-image: url('../../assets/images/TropRockLogo.png');
+  background-size: contain;
   background-repeat: no-repeat;
   height: 16rem;
 }

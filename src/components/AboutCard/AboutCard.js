@@ -5,8 +5,8 @@ const AboutCard = ({ person }) => {
   const { title, bio, pic, link } = person;
 
   return (
-    <div className="biography">
-      <Card className="card" style={{ width: '18rem' }}>
+    <>
+      <Card className="card biography" style={{ width: '18rem' }}>
         <Card.Img className="card-image" variant="top" src={pic} />
         <Card.Body>
           <Card.Title>
@@ -14,10 +14,10 @@ const AboutCard = ({ person }) => {
               {title}
             </a>
           </Card.Title>
+          <Card.Text>{bio}</Card.Text>
         </Card.Body>
       </Card>
-      <p className="bio-text">{bio}</p>
-    </div>
+    </>
   );
 };
 

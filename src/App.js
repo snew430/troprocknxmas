@@ -4,11 +4,10 @@ import {
   Navigation,
   Footer,
   Home,
-  Hour,
   About,
-  Stations,
   Sponsors,
   Contact,
+  Cookie,
 } from './components/index';
 // import DateCountdown from 'react-date-countdown-timer';
 
@@ -20,9 +19,8 @@ function App() {
       <Navigation />
       {/* <DateCountdown dateTo={tilXmas} callback={() => alert('Hello')} /> */}
       <Routes>
-        <Route path="/xmasinmd" element={<Home />} />
-        <Route path="/hour" element={<Hour />} />
-        <Route path="/stations" element={<Stations />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/cookie" element={<Cookie />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/*" element={<Home />} />
