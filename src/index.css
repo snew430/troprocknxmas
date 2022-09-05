@@ -1,14 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --font-base: "Old Standard TT", serif;
+
+  --primary-color: #B4CF66;
+  --secondary-color: #FF5A33;
+  --green-color: #44803F;
+  --darkGreen-color: #146152;
+  --yellow-color: #FFEC5C;
+  --black-color: #030303;
+  --white-color: #ffffff;
+  --gray-color: #696969;
+}
+
 * {
-  font-family: 'Roboto', sans-serif;
-}
-
-body {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  scroll-behavior: smooth;
 }
