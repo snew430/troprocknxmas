@@ -1,16 +1,18 @@
 .footer {
   display: flex;
   justify-content: center;
-  height: 10vh;
   align-items: center;
-  /* position: sticky; */
-  /* bottom: 0; */
-  background-color: var(--primary);
+  padding: 1rem;
 }
 
 .icon {
-  font-size: 2rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  color: var(--quad);
+  font-size: 3rem;
+  color: var(--white-color);
+  padding: 8px;
+  background-color: var(--darkRed-color);
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  outline-style: solid;
+  outline-color: var(--gray-color);
 }

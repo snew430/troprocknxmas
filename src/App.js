@@ -3,10 +3,8 @@ import './App.scss'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {
   Navigation,
-  Footer,
   Home,
   About,
-  Sponsors,
   Cookie,
 } from './components/index';
 // import DateCountdown from 'react-date-countdown-timer';
@@ -24,8 +22,6 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/*" element={<Home />} />
       </Routes>
-      <Sponsors />
-      <Footer sticky="bottom" />
     </Router>
   );
 }

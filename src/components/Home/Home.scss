@@ -1,64 +1,49 @@
-.home-body {
-  text-align: center;
-
-  padding-top: 0;
-  z-index: -2;
-}
-.home-body h2 {
-  color: var(--primary);
-}
-
-.home-banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-image: url('../../assets/images/santarock2.jpg');
+#home {
+  background: url('../../assets/images/christmastreelights.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  height: 20rem;
-}
+  background-position: center;
+  min-height: 100vh;
 
-.home-header {
-  font-family: 'Mountains of Christmas', cursive;
-  font-size: 5rem;
-  font-weight: 700;
-  width: 60%;
-}
-
-#home-logo {
-  width: 40%;
-}
-
-#business {
-  font-family: 'Mountains of Christmas', cursive;
-  font-size: 1.5rem;
-  color: var(--trinary);
-}
-
-.p-text {
-  border: 5px dotted var(--trinary);
-  border-radius: 40px;
-  //padding: 4rem;
-  margin: 3rem;
-}
-
-.emphasize {
-  font-size: 1.3rem;
-  color: var(--trinary);
-}
-
-@media screen and (max-width: 600px) {
-  .home-header {
-    font-size: 4rem;
+  .background{
+    background-color: rgba(105, 105, 105, 0.7);
   }
 
-  .p-text {
-    border-radius: 40px;
-    padding: 0.8rem;
+  .head-text {
+    padding-top: 6rem;
+    font-size: 6rem;
+    font-weight: 800;
+    text-align: center;
+    color: var(--white-color);
+    text-shadow: -1px 0 black;
+
+    @media screen and (max-width: 900px) {
+      font-size: 5rem;
+    }
+
+    @media screen and (max-width: 450px) {
+      font-size: 3rem;
+    }
   }
-  .home-banner {
-    margin-bottom: 4rem;
+
+  .info-text {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    text-justify: inter-word;
+    color: var(--white-color);
+    text-shadow: -1px 0 black;
+    line-height: 1.5;
+    margin: 40px 3rem 15px;
+
+    @media screen and (max-width: 900px) {
+      font-size: 1.6rem;
+      margin: 40px 70px 10px;
+    }
+
+    @media screen and (max-width: 450px) {
+      font-size: 1.25rem;
+      margin: 20px 10px 10px;
+    }
   }
+
 }
