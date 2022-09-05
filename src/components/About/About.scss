@@ -1,14 +1,14 @@
 #about {
-  background: url('../../assets/images/lights.jpg');
+  background: url('../../assets/images/presents.jpg');
   background-size: cover;
   background-position: center;
   min-height: 100vh;
 
   .background {
-    background-color: rgba(4, 57, 39, 0.55);
+    background-color: rgba(105, 105, 105, 0.8);
   }
 
-  .head-text {
+  h2 {
     padding-top: 6rem;
     font-size: 6rem;
     font-weight: 800;
@@ -24,6 +24,10 @@
       font-size: 3rem;
     }
   }
+
+  .secondary {
+    padding-top: 1rem;
+  }
   
   .info-text {
     font-size: 2rem;
@@ -33,7 +37,7 @@
     color: var(--white-color);
     text-shadow: -1px 0 black;
     line-height: 1.5;
-    margin: 40px 200px 15px;
+    margin: 40px 100px 15px;
 
     @media screen and (max-width: 900px) {
       font-size: 1.6rem;
@@ -44,6 +48,30 @@
       font-size: 1.25rem;
       margin: 20px 10px 10px;
     }
+
+    a {
+      font-size: 2rem;
+      font-weight: 300;
+      color: var(--white-color);
+      text-shadow: -1px 0 black;
+      text-decoration: none;
+
+      @media screen and (max-width: 900px) {
+        font-size: 1.6rem;
+      }
+
+      @media screen and (max-width: 450px) {
+        font-size: 1.25rem;
+      }
+
+      &:hover {
+        color: var(--darkRed-color);
+        background-color: rgba(233, 227, 201, 0.8);
+        padding: 5px;
+        border-radius: 5px;
+      }
+    }
+    
   }
 
   .studio-content {
@@ -53,7 +81,8 @@
       width: 30%;
       margin: 3rem;
       border-style: double;
-      border-width: 2px;
+      border-width: 12px;
+      border-color: var(--white-color);
     }
   }
 }

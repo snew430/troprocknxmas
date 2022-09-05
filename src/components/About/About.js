@@ -3,12 +3,13 @@ import AboutCard from '../AboutCard/AboutCard';
 import info from '../../info/aboutInfo';
 import CardGroup from 'react-bootstrap/CardGroup';
 import studio from '../../assets/images/studio.jpg';
+import Footer from '../Footer/Footer';
 
 const About = () => {
   return (
     <div id="about">
         <div className='background'>
-          <h2 className='head-text'>
+          <h2 className='app__flex'>
             From the Keys to California...
             <br/>
             It's a Trop Rockin' Christmas!
@@ -18,7 +19,7 @@ const About = () => {
             <p className='info-text'>
               A two-hour coast to coast radio broadcast all about beaches, tiki
               bars, boat drinks, flip flops, family, and friends exclusively on the
-              multi-award-winning Radio Trop Rock. Radiotroprock.com is Santa's
+              multi-award-winning Radio Trop Rock.<a href='https://radiotroprock.com/'>Radiotroprock.com</a> is Santa's
               Internet home for the holidays!
               < br/>
               We blend the sounds of the season from your favorite Trop Rock artists
@@ -33,7 +34,7 @@ const About = () => {
               Music Association (TRMA) awards.
             </p>
           </div>
-          
+          <h2 className='secondary app__flex'> Meet Your Hosts</h2>
           <div className='hosts'>
             <div>
             {info.map((person) => (
@@ -41,6 +42,7 @@ const About = () => {
             ))}
             </div>
           </div>
+          <Footer sticky="bottom" />
         </div>
     </div>
   );
