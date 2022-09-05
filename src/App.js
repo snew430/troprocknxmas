@@ -6,7 +6,6 @@ import {
   Home,
   About,
   Sponsors,
-  Contact,
   Cookie,
 } from './components/index';
 // import DateCountdown from 'react-date-countdown-timer';
@@ -22,7 +21,6 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/cookie" element={<Cookie />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="/*" element={<Home />} />
       </Routes>
       <Sponsors />

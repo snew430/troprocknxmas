@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root {
   --primary: #0C6EFD;
   --secondary: #0b6804;
-  --trinary: #1735ac;
+  --trinary: #ac1717;
   --quad: #000000;
 }

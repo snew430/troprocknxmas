@@ -1,86 +1,54 @@
 import React from 'react';
 import './Home.css';
 import Snowfall from 'react-snowfall';
+import logo from '../../assets/images/TropRockLogo.png';
 
 const Home = () => {
   return (
     <div className="home-body">
-      <Snowfall
-        color="lightblue"
-        snowflakeCount={200}
-        style={{ width: '100vw', height: '45vh' }}
-      />
-
       <div className="home-banner">
-        <h2 className="home-header">Trop Rockin' Christmas...</h2>
+        <Snowfall
+          color="lightblue"
+          snowflakeCount={200}
+          style={{ height: '40vh' }}
+          images={logo}
+        />
+        <h2 className="home-header">A Trop Rockin' Christmas...</h2>
+        {/* <img src={logo} alt="" id="home-logo" /> */}
       </div>
 
       <section className="p-text">
         <p>
-          <span id="business">On "Q" Productions</span> proudly presents
-          Christmas in Maryland
+          From the California Coast to the Florida Keys and beyond ....It's{' '}
+          <span className="emphasize">A Trop Rockin' Christmas</span>,
+          exclusively on Radio Trop Rock! Merry Christmas everyone! Buckle in
+          and join John Patti, Sr. for a two-hour trip to beaches, tiki bars,
+          and holiday parties. There will be plenty of Trop Rock tunes along the
+          way from some of your favorite artists like current Coral Reefers
+          Peter Mayor, Doyle Grisham, Nadirah Shakor and original Coral Reefer
+          Roger Bartlett.
         </p>
         <p>
-          Christmas in Maryland is a 14-hour audio journey that lets listeners
-          pause and feel the tradition that lives nestled between the mountains
-          of Western Maryland and the beaches of the Atlantic shore. Christmas
-          in Maryland takes you from the big city to the small towns of
-          Maryland, capturing the stories of the season at every stop.
+          We will also go south of border with Brent Burns and even mix up a
+          batch of gumbo with The Sauce Boss.
         </p>
-
         <p>
-          Every year it's the same story. From Thanksgiving to Christmas Eve,
-          the holiday spirit slowly makes its way into our lives. We go from our
-          busy workdays to even busier evenings. It's all pointing toward that
-          one day.
+          Some of the other Trop Rock artists featured this year include Brendan
+          Mayer, Tall Paul Bobal, Sunny Jim White, John Patti, Jimmy & The
+          Parrots, Kelly McGuire, Isabella Stefania, Gary James Moeller, Mike
+          Broward, as well as Kenny Chesney, and of course Jimmy Buffett.
         </p>
-
         <p>
-          Then the evening of December 24th comes and suddenly the world puts
-          its problems on hold. Traffic disappears, stores close, and we prepare
-          for the peace and tranquility of Christmas Day. For that one day it's
-          an escape to family gatherings, scenes of smiling faces, and all
-          around good cheer. It's Christmas!
+          We will also take you across the country at Christmas to visit with
+          some of the people who make it possible for us to enjoy Trop Rock
+          music like Dr. Joe Thornhill in Chicago, The Lake Shark Parrott Head
+          Club in Florida, and Bill Connolly. He will take us behind the scenes
+          at the annual “Music On The Bay” in Tampa.
         </p>
-
+        <p>Plus....Parrothead Christmas confessions!</p>
         <p>
-          Christmas in Maryland has captured Maryland at Christmastime. it's the
-          guy with two-hundred-thousand holiday lights in his yard. It's
-          spending time with family in Little Italy on Christmas Eve. It's
-          taking a sleigh ride through Frostburg and living the dream of the
-          Western Maryland Polar Express. It's also a visit behind the counter
-          in Bethlehem, Maryland as special postmarks are affixed to holiday
-          mail.
-        </p>
-
-        <p>
-          And we'll meet some famous Marylanders including John Waters, Pat
-          Sajak, John Harbaugh, Cal Ripken, Jr., and Boog Powell, to see what
-          Christmas in Maryland means to them.
-        </p>
-
-        <p>
-          Some of the features for this year's presentation include a ride
-          through Ocean City's Winterfest light display, a visit to The
-          Christmas House in Howard County, and a walk down Main Street in
-          Middletown, to see how they celebrate "Christmas in the Valley." Plus
-          we'll get a holiday serenade from the Heart of Maryland Chorus, and a
-          celebration of Christmas on the Potomac. And we'll tag along with
-          Santa as he delivers both pork and pine in Baltimore!
-        </p>
-
-        <p>
-          Returning favorites this year include visits to An East Baltimore
-          Christmas - Polish style, Crabs For Christmas at John and Donna
-          McKenna's, and the Pocomoke City Christmas Parade. Plus, we'll tag
-          along with the Grove family as they find the Perfect Christmas Tree.
-        </p>
-
-        <p>
-          You'll also hear the story of how It's Always Christmastime At
-          Sparky's, The Lazzati Family Christmas Card, The Trigg Christmas
-          Country Biscuit Brunch, and The Kellner Family Train Garden, plus how
-          some Marylanders say Merry Christmas - Island Style!
+          Grab your boat drink, slip into your flip flops and don't forget your
+          passport. Check airing times exclusively at radiotroprock.com.
         </p>
       </section>
     </div>

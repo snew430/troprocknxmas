@@ -5,20 +5,26 @@ import './Cookie.css';
 
 const Cookie = () => {
   return (
-    <>
-      <h2 id="cookieHeader">Cookie</h2>
-      <p>The cookies will be sold in quantities of 1 pound.</p>
+    <div className="cookiePage">
+      <h2 id="cookieHeader">Ahhhh.... The Cookies</h2>
+      <p>
+        The cookies will be sold in quantities of{' '}
+        <span className="emphasize">1 pound.</span>
+      </p>
       <img className="cookiePic" src={cookie} alt="cookie" />
       <p>
-        All of the proceeds will go to “Remember Our Children”. Their mission is
-        to help parents who have lost children to tragedy. Here is a link to
-        their web site. You can link it to ours.
+        All of the proceeds will go to{' '}
+        <span className="emphasize">“Remember Our Children”</span>. Their
+        mission is to help parents who have lost children to tragedy. Here is a
+        link to their web site.
       </p>
-      <img className="cookiePic" src={baking} alt="joe baking cookies" />
       <a href="http://www.rocpark.com/" rel="noreferrer" target="_blank">
-        R.O.C. Park
+        <span className="emphasize">R.O.C. Park</span>
       </a>
-    </>
+      <img className="cookiePic" src={baking} alt="joe baking cookies" />
+
+      <p>More info to come on how you can support us!</p>
+    </div>
   );
 };
 

@@ -3,14 +3,14 @@ import Card from 'react-bootstrap/Card';
 
 const AboutCard = ({ person }) => {
   const { title, bio, pic, link } = person;
-
+  console.log(link);
   return (
     <>
       <Card className="card biography" style={{ width: '18rem' }}>
         <Card.Img className="card-image" variant="top" src={pic} />
         <Card.Body>
           <Card.Title>
-            <a href={link} target="_blank" rel="noreferrer">
+            <a href={`mailto:${link}`} target="_blank" rel="noreferrer">
               {title}
             </a>
           </Card.Title>

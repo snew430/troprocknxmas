@@ -13,36 +13,40 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-image: url('../../assets/images/TropRockLogo.png');
-  background-size: contain;
+  background-image: url('../../assets/images/santarock2.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 16rem;
+  background-position: bottom;
+  height: 20rem;
 }
 
 .home-header {
   font-family: 'Mountains of Christmas', cursive;
   font-size: 5rem;
   font-weight: 700;
+  width: 60%;
 }
+
+#home-logo {
+  width: 40%;
+}
+
 #business {
   font-family: 'Mountains of Christmas', cursive;
   font-size: 1.5rem;
   color: var(--trinary);
 }
 
-/* .banner-image {
-  width: 100%;
-  position: absolute;
-  height: 15rem;
-  z-index: -1;
-  object-fit: cover;
-} */
-
 .p-text {
   border: 5px dotted var(--trinary);
   border-radius: 40px;
   padding: 4rem;
   margin: 3rem;
+}
+
+.emphasize {
+  font-size: 1.3rem;
+  color: var(--trinary);
 }
 
 @media screen and (max-width: 600px) {
@@ -54,11 +58,6 @@
     border-radius: 40px;
     padding: 0.8rem;
   }
-
-  .home-body {
-    /* padding: 1.3rem; */
-  }
-
   .home-banner {
     margin-bottom: 4rem;
   }
