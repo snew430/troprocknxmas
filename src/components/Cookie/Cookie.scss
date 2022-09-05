@@ -1,27 +1,39 @@
-.cookiePage {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 2rem;
-  padding: 2rem;
-  border: 5px dotted var(--trinary);
-  margin: 3rem;
-}
+#cookie{
+  .head-text {
+    padding-top: 6rem;
+    font-size: 6rem;
+    font-weight: 800;
+    text-align: center;
+    color: var(--white-color);
+    text-shadow: -1px 0 black;
 
-#cookieHeader {
-  font-family: 'Mountains of Christmas', cursive;
-  font-weight: 700;
-  font-size: 3rem;
-  text-decoration: underline;
-  color: var(--trinary);
-  margin-bottom: 2rem;
-}
+    @media screen and (max-width: 900px) {
+      font-size: 5rem;
+    }
 
-.cookiePic {
-  width: 30%;
-  border-radius: 50%;
-  margin: 2rem;
-  border: 5px dotted var(--trinary);
-  padding: 1rem;
+    @media screen and (max-width: 450px) {
+      font-size: 3rem;
+    }
+  }
+
+  .info-text {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    text-justify: inter-word;
+    color: var(--white-color);
+    text-shadow: -1px 0 black;
+    line-height: 1.5;
+    margin: 40px 3rem 15px;
+
+    @media screen and (max-width: 900px) {
+      font-size: 1.6rem;
+      margin: 40px 70px 10px;
+    }
+
+    @media screen and (max-width: 450px) {
+      font-size: 1.25rem;
+      margin: 20px 10px 10px;
+    }
+  }
 }

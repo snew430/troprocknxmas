@@ -14,14 +14,16 @@ function App() {
 
   return (
     <Router>
-      <Navigation />
-      {/* <DateCountdown dateTo={tilXmas} callback={() => alert('Hello')} /> */}
-      <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/cookie" element={<Cookie />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/*" element={<Home />} />
-      </Routes>
+      <div className='app'>
+        <Navigation />
+        {/* <DateCountdown dateTo={tilXmas} callback={() => alert('Hello')} /> */}
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/cookie" element={<Cookie />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/*" element={<Home />} />
+        </Routes>
+      </div>
     </Router>
   );
 }
