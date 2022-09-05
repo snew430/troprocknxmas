@@ -3,10 +3,11 @@ import AboutCard from '../AboutCard/AboutCard';
 import info from '../../info/aboutInfo';
 import CardGroup from 'react-bootstrap/CardGroup';
 import studio from '../../assets/images/studio.jpg';
+import Footer from '../Footer/Footer';
 
 const About = () => {
   return (
-    <>
+    <div id="about">
       <div id="aboutTrop">
         <h2>
           From the Keys to California....It's{' '}
@@ -39,7 +40,8 @@ const About = () => {
           <AboutCard key={person.title} person={person} />
         ))}
       </div>
-    </>
+      <Footer sticky="bottom" />
+    </div>
   );
 };
 

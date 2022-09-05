@@ -2,11 +2,13 @@ import React from 'react';
 import cookie from '../../assets/images/cookie.jpeg';
 import baking from '../../assets/images/baking.jpeg';
 import './Cookie.scss';
+import Footer from '../Footer/Footer';
+
 
 const Cookie = () => {
   return (
-    <div className="cookiePage">
-      <h2 id="cookieHeader">Ahhhh.... The Cookies</h2>
+    <div id="cookie">
+      <h2>Ahhhh.... The Cookies</h2>
       <p>
         The cookies will be sold in quantities of{' '}
         <span className="emphasize">1 pound.</span>
@@ -24,6 +26,7 @@ const Cookie = () => {
       <img className="cookiePic" src={baking} alt="joe baking cookies" />
 
       <p>More info to come on how you can support us!</p>
+      <Footer sticky="bottom" />
     </div>
   );
 };
