@@ -1,4 +1,4 @@
-import './About.css';
+import './About.scss';
 import AboutCard from '../AboutCard/AboutCard';
 import info from '../../info/aboutInfo';
 import CardGroup from 'react-bootstrap/CardGroup';

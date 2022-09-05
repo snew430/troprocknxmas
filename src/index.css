@@ -4,14 +4,14 @@
 :root {
   --font-base: "Old Standard TT", serif;
 
-  --primary-color: #B4CF66;
-  --secondary-color: #FF5A33;
+  --primary-color: #4A8764;
+  --secondary-color: #BD3E2F;
   --green-color: #44803F;
   --darkGreen-color: #146152;
-  --yellow-color: #FFEC5C;
+  --darkRed-color: #832831  ;
   --black-color: #030303;
-  --white-color: #ffffff;
-  --gray-color: #696969;
+  --white-color: #E9E3C9;
+  --darkBlue-color: #235E6F;
 }
 
 * {

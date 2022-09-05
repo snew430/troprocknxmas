@@ -1,7 +1,7 @@
 import React from 'react';
 import cookie from '../../assets/images/cookie.jpeg';
 import baking from '../../assets/images/baking.jpeg';
-import './Cookie.css';
+import './Cookie.scss';
 
 const Cookie = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import sponsors from '../../info/sponsorInfo';
-import './Sponsors.css';
+import './Sponsors.scss';
 
 const Sponsors = () => {
   return (
