@@ -88,4 +88,27 @@
     text-align: center;
   }
 
+  .sponsor-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    a {
+      font-size: 2.25rem;
+      font-weight: bold;
+      text-decoration: none;
+      background-color: var(--white-color);
+      color: var(--darkRed-color);
+      margin: 2rem;
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+      border-style: groove;
+      border-width: 5px;
+
+      &:hover {
+        color: var(--white-color);
+        background-color: var(--darkGreen-color);
+      }
+    }
+  }
 }
