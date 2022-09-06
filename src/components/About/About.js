@@ -11,11 +11,11 @@ const About = () => {
         <div className='background'>
           <h2 className='app__flex'>From the Keys to California...<br/>It's a Trop Rockin' Christmas!</h2>
           <div className='studio-content'>
-            <img src={studio} alt="studio picture" />
+            <img src={studio} alt="studio picture"/>
               <p className='info-text'>
                 A two-hour coast to coast radio broadcast all about beaches, tiki
                 bars, boat drinks, flip flops, family, and friends exclusively on the
-                multi-award-winning Radio Trop Rock.<a href='https://radiotroprock.com/'>Radiotroprock.com</a> is Santa's
+                multi-award-winning Radio Trop Rock. <a href='https://radiotroprock.com/'>Radiotroprock.com</a> is Santa's
                 Internet home for the holidays!
                 < br/>
                 We blend the sounds of the season from your favorite Trop Rock artists
@@ -32,11 +32,11 @@ const About = () => {
           </div>
 
           <h2 className='secondary app__flex'> Meet Your Hosts</h2>
-          <div>
+
             {info.map((person) => (
               <AboutCard key={person.title} person={person} />
             ))}
-          </div>
+
           <Footer sticky="bottom" />
         </div>
     </div>

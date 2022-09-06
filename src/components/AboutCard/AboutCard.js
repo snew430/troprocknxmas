@@ -8,16 +8,13 @@ const AboutCard = ({ person }) => {
   const { title, bio, pic, link } = person;
   console.log(link);
   return (
-      <div className='app__about'>
-        <div className="app__profiles">
-          <div className='app__profile'>
-            <img src={pic} alt={person.title}/>
-            <h2 className='bold-text'><a href={`mailto:${link}`} target="_blank" rel="noreferrer">{title}</a></h2>
-            <p className='p-text'>{bio}</p>
-          </div>
-        </div>
+    <>
+      <div className='hosts'>
+        <img src={pic} alt={person.title}/>
+        <h3 className='bold-text'><a href={`mailto:${link}`} target="_blank" rel="noreferrer">{title}</a></h3>
+        <p className='info-text'>{bio}</p>
       </div>
-
+    </>
   );
 };
 
