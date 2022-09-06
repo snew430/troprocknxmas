@@ -10,11 +10,11 @@
 
   h2 {
     padding-top: 6rem;
-    font-size: 6rem;
+    font-size: 6.5rem;
     font-weight: 500;
     text-align: center;
     color: var(--white-color);
-    text-shadow: -1px 0 black;
+    text-shadow: -5px 0 var(--darkGreen-color);
 
     @media screen and (max-width: 900px) {
       font-size: 5rem;
@@ -41,6 +41,10 @@
       border-style: double;
       border-width: 12px;
       border-color: var(--white-color);
+
+      @media screen and (max-width: 900px) {
+        width: 90%;
+      }
     }
   }
   
@@ -64,7 +68,7 @@
     @media screen and (max-width: 900px) {
       font-size: 1.6rem;
       margin: 20px 10px 10px;
-      width: 100%;
+      width: 90%;
     }
 
     a {
