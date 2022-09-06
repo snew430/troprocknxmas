@@ -11,10 +11,11 @@
   .head-text {
     padding-top: 6rem;
     font-size: 6rem;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
     color: var(--white-color);
-    text-shadow: -2px 0 black;
+    text-shadow: -10px 0 var(--darkRed-color);
+
 
     @media screen and (max-width: 900px) {
       font-size: 5rem;
@@ -31,8 +32,7 @@
     text-align: center;
     text-justify: inter-word;
     color: var(--white-color);
-    background-color: var(--darkRed-color);
-    //opacity: 0.5;
+    background-color: rgba(131, 40, 49, 0.15);
     border: 25px;
     border-style: double;
     border-color: var(--white-color);

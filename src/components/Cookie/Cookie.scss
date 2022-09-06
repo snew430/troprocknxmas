@@ -1,4 +1,9 @@
-#cookie{
+#cookie {
+  background: url('../../assets/images/ornament.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+
   .head-text {
     padding-top: 6rem;
     font-size: 6rem;
@@ -16,7 +21,7 @@
     }
   }
 
-  .info-text {
+  .info-text, a {
     font-size: 2rem;
     font-weight: 300;
     text-align: center;
@@ -34,6 +39,16 @@
     @media screen and (max-width: 450px) {
       font-size: 1.25rem;
       margin: 20px 10px 10px;
+    }
+  }
+
+  img {
+    width: 25rem;
+  }
+
+  .footer {
+    a {
+      margin: 0;
     }
   }
 }
