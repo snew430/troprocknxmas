@@ -22,21 +22,23 @@ const Home = () => {
         </div>
         <section className="p-text">
           <p className="info-text">
-            From the California Coast to the Florida Keys and beyond ....It's{' '}
+            From the California Coast to the Florida Keys and beyond... <br/>It's
             <span className="emphasize">A Trop Rockin' Christmas</span>,
-            exclusively on Radio Trop Rock! Merry Christmas everyone! Buckle in
-            and join John Patti, Sr. for a two-hour trip to beaches, tiki bars,
+            exclusively on Radio Trop Rock! 
+            
+            <br /> Merry Christmas everyone! < br/> 
+            Buckle in and join John Patti Sr. for a two-hour trip to beaches, tiki bars,
             and holiday parties. There will be plenty of Trop Rock tunes along the
             way from some of your favorite artists like current Coral Reefers
             Peter Mayor, Doyle Grisham, Nadirah Shakor and original Coral Reefer
             Roger Bartlett.
           </p>
           <p className="info-text">
-            We will also go south of border with Brent Burns and even mix up a
+            We will even go south of border with Brent Burns and mix up a
             batch of gumbo with The Sauce Boss.
           </p>
           <p className="info-text">
-            Some of the other Trop Rock artists featured this year include Brendan
+            Some of the other Trop Rock artists featured this year include: <br/> Brendan
             Mayer, Tall Paul Bobal, Sunny Jim White, John Patti, Jimmy & The
             Parrots, Kelly McGuire, Isabella Stefania, Gary James Moeller, Mike
             Broward, as well as Kenny Chesney, and of course Jimmy Buffett.
@@ -48,13 +50,13 @@ const Home = () => {
             Club in Florida, and Bill Connolly. He will take us behind the scenes
             at the annual “Music On The Bay” in Tampa.
           </p>
-          <p className="info-text">Plus....Parrothead Christmas confessions!</p>
+          <p className="info-text">Plus... Parrothead Christmas confessions!</p>
           <p className="info-text">
             Grab your boat drink, slip into your flip flops and don't forget your
             passport. <br/> Check airing times exclusively at radiotroprock.com.
           </p>
         </section>
-        <h5>A very special thank you to our sponsors...</h5>
+        <h3>A very special thank you to our sponsors...</h3>
         <div className="sponsor-links">
           {sponsors.map((sponsor) => (
             <a
