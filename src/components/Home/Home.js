@@ -14,7 +14,7 @@ const Home = () => {
           <Snowfall
             color="white"
             snowflakeCount={200}
-            style={{ height: '40vh' }}
+            style={{ height: '75vh' }}
             images={logo}
           />
           <h2 className="head-text">A Trop Rockin' Christmas...</h2>

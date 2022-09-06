@@ -11,8 +11,10 @@ const Cookie = () => {
       <div className='background'>
         <h2 className='head-text'>Ahhhh.... The Cookies</h2>
         <p className='info-text'>You can support our fundraiser by buying cookies!</p>
-        <img src={cookie} alt="cookie" />
-        <img src={baking} alt="joe baking cookies"/>
+        <div className='images'>
+          {/* <img className='cookie' src={cookie} alt="sample cookie" /> */}
+          <img className='joe' src={baking} alt="joe baking cookies"/>
+        </div>
           <p className='charity-text'>
             Cookies are sold by the pound, and all of the proceeds go to the organization:
             <br/>
