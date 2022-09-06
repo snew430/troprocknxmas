@@ -11,10 +11,10 @@
   h2 {
     padding-top: 6rem;
     font-size: 6.5rem;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
     color: var(--white-color);
-    text-shadow: -8px 0 var(-darkRed-color);
+    text-shadow: -10px 0 var(--darkRed-color);
 
     @media screen and (max-width: 900px) {
       font-size: 5rem;
@@ -99,29 +99,37 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 
-    .person{
+    .person {
       flex-direction: column;
       justify-content: center;
-    }
+      text-align: center;
+
       img {
         width: 25rem;
         height: 30rem;
+        margin: 1rem;
+        border-style: dotted;
+        border-width: 10px;
+        border-color: var(--white-color);
       }
+
       .info-text {
           width: 25rem;
           background-color: var(--darkGreen-color);
           font-size: 1.65rem;
-          margin: 0;
+          margin: 1rem;
       }
 
       h3 {
         a {
           text-decoration: none;
-          font-size: 2.5rem;
+          font-size: 4rem;
           color: var(--white-color);
-          text-shadow: -2px 0 var(--darkRed-color);
-          padding: 0.5rem;
+          text-shadow: -1px 0 black;
+          background-color: var(--darkRed-color);
+          padding: 0.5rem 1rem;
         }
       }
     }
+  }
 }
