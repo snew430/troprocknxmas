@@ -1,22 +1,19 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import { motion } from 'framer-motion';
+
+//import './AboutCard.scss'
 
 const AboutCard = ({ person }) => {
   const { title, bio, pic, link } = person;
   console.log(link);
   return (
     <>
-      <Card className="card biography" style={{ width: '18rem' }}>
-        <Card.Img className="card-image" variant="top" src={pic} />
-        <Card.Body>
-          <Card.Title>
-            <a href={`mailto:${link}`} target="_blank" rel="noreferrer">
-              {title}
-            </a>
-          </Card.Title>
-          <Card.Text>{bio}</Card.Text>
-        </Card.Body>
-      </Card>
+        <div className='person'>
+          <img src={pic} alt={person.title}/>
+          <h3><a href={`mailto:${link}`} target="_blank" rel="noreferrer">{title}</a></h3>
+          <p className='info-text'>{bio}</p>
+        </div>
     </>
   );
 };

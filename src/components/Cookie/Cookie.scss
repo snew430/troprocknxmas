@@ -1,0 +1,83 @@
+#cookie {
+  background: url('../../assets/images/cookies.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+
+  .background {
+    background-color: rgba(78, 44, 24, 0.75);
+  }
+
+  .head-text {
+    padding-top: 6rem;
+    font-size: 6rem;
+    font-weight: 800;
+    text-align: center;
+    color: var(--white-color);
+    text-shadow: -12px 0 var(--darkRed-color);
+
+    @media screen and (max-width: 900px) {
+      font-size: 5rem;
+    }
+
+    @media screen and (max-width: 450px) {
+      font-size: 3rem;
+    }
+  }
+    .info-text, a {
+      font-size: 2rem;
+      font-weight: 300;
+      text-align: center;
+      text-justify: inter-word;
+      color: var(--white-color);
+      text-shadow: -1px 0 black;
+      line-height: 1.5;
+  
+      @media screen and (max-width: 900px) {
+        font-size: 1.6rem;
+        margin: 40px 70px 10px;
+      }
+  
+      @media screen and (max-width: 450px) {
+        font-size: 1.25rem;
+        margin: 20px 10px 10px;
+      }
+  }
+
+  .charity-text {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    text-justify: inter-word;
+    color: var(--white-color);
+    background-color: var(--darkGreen-color);
+    border-color: var(--white-color);
+    border-style: dotted;
+    border-width: 12px;
+    text-shadow: -1px 0 black;
+    line-height: 1.5;
+    margin: 20px 200px 15px;
+    padding: 1rem;
+
+    @media screen and (max-width: 900px) {
+      font-size: 1.6rem;
+      margin: 40px 70px 10px;
+    }
+
+    @media screen and (max-width: 450px) {
+      font-size: 1.25rem;
+      margin: 20px 10px 10px;
+    }
+}
+
+  img {
+    width: 25rem;
+  }
+
+  .footer {
+    a {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

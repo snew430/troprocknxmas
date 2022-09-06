@@ -1,45 +1,45 @@
-import './About.css';
+import './About.scss';
 import AboutCard from '../AboutCard/AboutCard';
 import info from '../../info/aboutInfo';
 import CardGroup from 'react-bootstrap/CardGroup';
 import studio from '../../assets/images/studio.jpg';
+import Footer from '../Footer/Footer';
 
 const About = () => {
   return (
-    <>
-      <div id="aboutTrop">
-        <h2>
-          From the Keys to California....It's{' '}
-          <span className="emphasize2">A Trop Rockin' Christmas!</span>
-        </h2>
-        <img id="studioPic" src={studio} alt="" />
-        <p>
-          A two-hour coast to coast radio broadcast all about beaches, tiki
-          bars, boat drinks, flip flops, family, and friends exclusively on the
-          multi-award-winning Radio Trop Rock. Radiotroprock.com is Santa's
-          Internet home for the holidays!
-        </p>
-        <p>
-          We blend the sounds of the season from your favorite Trop Rock artists
-          with Christmas memories, fascinating stories, and holiday greetings.
-        </p>
-        <p>
-          John Patti Sr. has traveled to various parts of the U.S. to track down
-          never-before-told tales from your favorite Trop Rock artists and their
-          fans.
-        </p>
-        <p>
-          “A Trop Rockin' Christmas” is in its third year of production and has
-          been nominated for “Best Recorded Radio Show” for the 2022 Trop Rock
-          Music Association (TRMA) awards.
-        </p>
-      </div>
-      <div className="aboutUs">
-        {info.map((person) => (
-          <AboutCard key={person.title} person={person} />
-        ))}
-      </div>
-    </>
+    <div id="about">
+        <div className='background'>
+          <h2 className='app__flex'>From the Keys to California...<br/>It's a Trop Rockin' Christmas!</h2>
+          <div className='studio-content'>
+            <img src={studio} alt="studio picture"/>
+              <p className='info-text'>
+                A two-hour coast to coast radio broadcast all about beaches, tiki
+                bars, boat drinks, flip flops, family, and friends exclusively on the
+                multi-award-winning Radio Trop Rock. <a href='https://radiotroprock.com/'>Radiotroprock.com</a> is Santa's
+                Internet home for the holidays!
+                < br/>
+                We blend the sounds of the season from your favorite Trop Rock artists
+                with Christmas memories, fascinating stories, and holiday greetings.
+                < br/>
+                John Patti Sr. has traveled to various parts of the U.S. to track down
+                never-before-told tales from your favorite Trop Rock artists and their
+                fans.
+                < br/>
+                “A Trop Rockin' Christmas” is in its third year of production and has
+                been nominated for “Best Recorded Radio Show” for the 2022 Trop Rock
+                Music Association (TRMA) awards.
+              </p>
+          </div>
+
+          <h2 className='secondary app__flex'> Meet Your Hosts</h2>
+            <div className='hosts'>
+                {info.map((person) => (
+                  <AboutCard key={person.title} person={person} />
+                ))}
+            </div>
+          <Footer sticky="bottom" />
+        </div>
+    </div>
   );
 };
 

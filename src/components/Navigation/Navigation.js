@@ -1,40 +1,65 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import React, { useState } from 'react';
+import { HiMenuAlt4, HiX } from 'react-icons/hi';
+import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
+import './Navigation.scss';
+
 const Navigation = () => {
+  const [toggle, setToggle] = useState(false);
+
   return (
-    <>
-      <Navbar
-        className="navbar"
-        bg="primary"
-        variant="dark"
-        expand="lg"
-        sticky="top"
-      >
-        <Container>
-          <Navbar.Brand as={Link} to="/">
-            Trop Rock'n Christmas
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link as={Link} to="/home">
-                Home
-              </Nav.Link>
-              <Nav.Link as={Link} to="/cookie">
-                Cookie
-              </Nav.Link>
-              <Nav.Link as={Link} to="/about">
-                About
-              </Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    </>
+    <nav className="app__navbar">
+      <h2>Trop Rock'n Christmas</h2>
+      <ul className="app__navbar-links">
+          <li className="app__flex p-text">
+            <Link as={Link} to="/home">
+                  Home
+            </Link>
+          </li>
+          <li className="app__flex p-text">
+            <Link as={Link} to="/cookie">
+                  Cookies
+            </Link>
+          </li>
+          <li className="app__flex p-text">
+            <Link as={Link} to="/about">
+                  About Us
+            </Link>
+          </li>
+      </ul>
+
+      <div className="app__navbar-menu">
+
+          <HiMenuAlt4 onClick={() => setToggle(true)} />
+          {toggle && (
+            <motion.div
+              whileInView={{ x: [300, 0] }}
+              transition={{ duration: 0.85, ease: 'easeOut' }}
+            >
+              <HiX onClick={() => setToggle(false)} />
+              <ul>
+                <li className="app__flex p-text">
+                  <Link as={Link} to="/home"  className="app__flex p-text">
+                      Home
+                  </Link>
+                </li>
+                <li className="app__flex p-text">
+                  <Link as={Link} to="/cookie"  className="app__flex p-text">
+                      Cookies
+                  </Link>
+                </li>
+                <li className="app__flex p-text">
+                  <Link as={Link} to="/about"  className="app__flex p-text">
+                      About Us
+                  </Link>
+                </li>
+                </ul>
+            </motion.div>
+          )}
+
+      </div>
+    </nav>
   );
 };
 

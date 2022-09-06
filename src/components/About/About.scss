@@ -1,0 +1,135 @@
+#about {
+  background: url('../../assets/images/presents.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+
+  .background {
+    background-color: rgba(105, 105, 105, 0.8);
+  }
+
+  h2 {
+    padding-top: 6rem;
+    font-size: 6.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--white-color);
+    text-shadow: -10px 0 var(--darkRed-color);
+
+    @media screen and (max-width: 900px) {
+      font-size: 5rem;
+    }
+
+    @media screen and (max-width: 450px) {
+      font-size: 3rem;
+    }
+  }
+
+  .secondary {
+    padding-top: 1rem;
+  }
+
+  .studio-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+
+    img {
+      width: 30%;
+      border-style: double;
+      border-width: 12px;
+      border-color: var(--white-color);
+
+      @media screen and (max-width: 900px) {
+        width: 90%;
+      }
+    }
+  }
+  
+  .info-text {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    text-justify: inter-word;
+    color: var(--white-color);
+    background-color: var(--darkRed-color);
+    border: 20px;
+    border-style: double;
+    border-color: var(--white-color);
+    padding: 1rem;
+    text-shadow: -2px 0 black;
+    line-height: 1.5;
+    margin: 20px 75px 15px;
+    width: 50%;
+
+    @media screen and (max-width: 1200px) {
+      font-size: 1.6rem;
+      margin: 20px 10px 10px;
+      width: 90%;
+    }
+
+    a {
+      font-size: 2rem;
+      font-weight: 300;
+      color: var(--white-color);
+      text-shadow: -1px 0 black;
+      text-decoration: none;
+
+      @media screen and (max-width: 900px) {
+        font-size: 1.6rem;
+      }
+
+      @media screen and (max-width: 450px) {
+        font-size: 1.25rem;
+      }
+
+      &:hover {
+        color: var(--darkRed-color);
+        background-color: rgba(233, 227, 201, 0.8);
+        padding: 5px;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  .hosts { 
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .person {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+
+      img {
+        width: 25rem;
+        height: 30rem;
+        margin: 1rem;
+        border-style: dotted;
+        border-width: 12px;
+        border-color: var(--white-color);
+      }
+
+      .info-text {
+          width: 40rem;
+          background-color: var(--darkGreen-color);
+          font-size: 1.65rem;
+          margin: 1rem;
+      }
+
+      h3 {
+        a {
+          text-decoration: none;
+          font-size: 4rem;
+          color: var(--white-color);
+          text-shadow: -1px 0 black;
+          background-color: var(--darkRed-color);
+          padding: 0.5rem 1rem;
+        }
+      }
+    }
+  }
+}
