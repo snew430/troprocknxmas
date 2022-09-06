@@ -32,11 +32,11 @@ const About = () => {
           </div>
 
           <h2 className='secondary app__flex'> Meet Your Hosts</h2>
-
-            {info.map((person) => (
-              <AboutCard key={person.title} person={person} />
-            ))}
-
+            <div className='hosts'>
+                {info.map((person) => (
+                  <AboutCard key={person.title} person={person} />
+                ))}
+            </div>
           <Footer sticky="bottom" />
         </div>
     </div>
