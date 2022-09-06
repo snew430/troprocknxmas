@@ -6,6 +6,7 @@
 
   .background {
     background-color: rgba(78, 44, 24, 0.75);
+    min-height: 100vh;
   }
 
   .head-text {
@@ -70,7 +71,7 @@
     }
 }
 
-  .images{
+  .images {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

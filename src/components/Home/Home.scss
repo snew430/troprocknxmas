@@ -6,6 +6,7 @@
 
   .background{
     background-color: rgba(105, 105, 105, 0.85);
+    min-height: 100vh;
   }
 
   .head-text {
@@ -40,7 +41,7 @@
     padding: 1rem;
     text-shadow: -2px 0 black;
     line-height: 1.5;
-    margin: 20px 150px 15px;
+    margin: 20px 15rem 15px;
 
     @media screen and (max-width: 900px) {
       font-size: 1.6rem;
