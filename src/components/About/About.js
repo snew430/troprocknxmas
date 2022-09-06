@@ -9,14 +9,9 @@ const About = () => {
   return (
     <div id="about">
         <div className='background'>
-          <h2 className='app__flex'>
-            From the Keys to California...
-            <br/>
-            It's a Trop Rockin' Christmas!
-          </h2>
+          <h2 className='app__flex'>From the Keys to California...<br/>It's a Trop Rockin' Christmas!</h2>
           <div className='studio-content'>
-            <img id="studioPic" src={studio} alt="" />
-            <div className='card-background'>
+            <img src={studio} alt="studio picture" />
               <p className='info-text'>
                 A two-hour coast to coast radio broadcast all about beaches, tiki
                 bars, boat drinks, flip flops, family, and friends exclusively on the
@@ -34,8 +29,8 @@ const About = () => {
                 been nominated for “Best Recorded Radio Show” for the 2022 Trop Rock
                 Music Association (TRMA) awards.
               </p>
-            </div>
           </div>
+
           <h2 className='secondary app__flex'> Meet Your Hosts</h2>
           <div>
             {info.map((person) => (
