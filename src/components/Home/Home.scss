@@ -32,7 +32,8 @@
     text-align: center;
     text-justify: inter-word;
     color: var(--white-color);
-    background-color: rgba(131, 40, 49, 0.15);
+    //background-color: rgba(131, 40, 49, 0.15);
+    background-color: var(--darkGreen-color);
     border: 25px;
     border-style: double;
     border-color: var(--white-color);
@@ -79,10 +80,10 @@
     margin: 0.75rem;
     padding: 0.25rem 1rem;
     color: var(--white-color);
-    text-shadow: -1px 0 black;
+    text-shadow: -5px 0 var(--darkRed-color);
     border-bottom: 5px;
     font-size: 3rem;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
   }
 
