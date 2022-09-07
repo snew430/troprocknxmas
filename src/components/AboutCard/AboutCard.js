@@ -1,12 +1,11 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 
 //import './AboutCard.scss'
 
 const AboutCard = ({ person }) => {
   const { title, bio, pic, link } = person;
-  console.log(link);
   return (
     <>
         <div className='person'>
