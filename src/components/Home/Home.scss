@@ -4,7 +4,7 @@
   //background-position: center;
   min-height: 100vh;
 
-  .background{
+  .background {
     background-color: rgba(49, 49, 49, 0.5);
     min-height: 100vh;
   }
@@ -28,7 +28,7 @@
   }
 
   .info-text {
-    font-size: 1.75rem;
+    font-size: 1.85rem;
     font-weight: 800;
     text-align: center;
     text-justify: inter-word;
@@ -41,7 +41,7 @@
     padding: 1rem;
     text-shadow: -2px 0 black;
     line-height: 1.5;
-    margin: 20px 50px 15px;
+    margin: 20px 150px 15px;
 
     @media screen and (max-width: 900px) {
       font-size: 1.6rem;
@@ -57,7 +57,7 @@
       font-size: 2rem;
       font-weight: 300;
       color: var(--white-color);
-      text-shadow: -1px 0 black;
+      text-shadow: -3px 0 var(--darkRed-color);
       text-decoration: none;
 
       @media screen and (max-width: 900px) {
@@ -69,10 +69,11 @@
       }
 
       &:hover {
-        color: var(--darkRed-color);
-        background-color: rgba(233, 227, 201, 0.8);
+        color: var(--darkGreen-color);
+        //background-color: rgba(233, 227, 201, 0.8);
         padding: 5px;
-        border-radius: 5px;
+        //border-radius: 5px;
+        text-shadow: -1px 0 var(--white-color);
       }
     }
   }
@@ -88,23 +89,32 @@
     text-align: center;
   }
 
+  h4 {
+    margin: 0.75rem;
+    padding: 0.25rem 1rem;
+    color: var(--white-color);
+    text-shadow: -5px 0 var(--darkGreen-color);
+    border-bottom: 5px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
   .sponsor-links{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     
     a {
-      font-size: 2rem;
+      font-size: 1.9rem;
       font-weight: bold;
       text-decoration: none;
       background-color: var(--white-color);
       color: var(--primary-color);
+      text-shadow: -3px 0 var(--darkRed-color);
       margin: 2rem;
       padding: 0.5rem 1rem;
       border-radius: 5px;
-      //border-style: groove;
-      //border-width: 5px;
-      //border-color: var(--white-color);
 
       &:hover {
         color: var(--white-color);
