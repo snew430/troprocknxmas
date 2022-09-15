@@ -17,7 +17,7 @@ const Home = () => {
       />
       <div className='background'>
 
-          <h2 className="head-text">A Trop Rockin' Christmas...</h2>
+          <h2 className="head-text">It's Trop Rockin' this Christmas</h2>
           {/* <img src={logo} alt="" id="home-logo" /> */}
           <div>
             <p className="info-text">
@@ -70,7 +70,7 @@ const Home = () => {
           </div>
             
         
-        <h3>A very special thank you to our sponsors...</h3>
+        <h3>A very special thank you to our sponsors</h3>
         <div className="sponsor-links">
           {sponsors.map((sponsor) => (
             <a

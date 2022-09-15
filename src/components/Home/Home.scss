@@ -10,8 +10,8 @@
   }
 
   .head-text {
-    padding-top: 6rem;
-    font-size: 6rem;
+    padding-top: 7rem;
+    font-size: 7rem;
     font-weight: 600;
     text-align: center;
     color: var(--white-color);
@@ -28,7 +28,7 @@
   }
 
   .info-text {
-    font-size: 1.85rem;
+    font-size: 2.15rem;
     font-weight: 800;
     text-align: center;
     text-justify: inter-word;
@@ -70,9 +70,7 @@
 
       &:hover {
         color: var(--darkGreen-color);
-        //background-color: rgba(233, 227, 201, 0.8);
         padding: 5px;
-        //border-radius: 5px;
         text-shadow: -1px 0 var(--white-color);
       }
     }
@@ -95,7 +93,7 @@
     color: var(--white-color);
     text-shadow: -5px 0 var(--darkGreen-color);
     border-bottom: 5px;
-    font-size: 2rem;
+    font-size: 2.15rem;
     font-weight: 600;
     text-align: center;
   }
