@@ -75,6 +75,31 @@
       }
     }
   }
+  .secondary-text {
+    font-size: 2.15rem;
+    font-weight: 600;
+    text-align: center;
+    text-justify: inter-word;
+    color: var(--white-color);
+    background-color: var(--darkGreen-color);
+    border: 25px;
+    border-style: double;
+    border-color: var(--white-color);
+    padding: 1rem;
+    text-shadow: -3px 0 var(--darkRed-color);
+    line-height: 1.5;
+    margin: 20px 7rem 15px;
+
+    @media screen and (max-width: 900px) {
+      font-size: 1.6rem;
+      margin: 40px 70px 10px;
+    }
+
+    @media screen and (max-width: 450px) {
+      font-size: 1.25rem;
+      margin: 20px 10px 10px;
+    }
+  }
 
   h3 {
     margin: 0.75rem;

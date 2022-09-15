@@ -28,7 +28,7 @@ const Home = () => {
 
             <h3> Merry Christmas everyone! </h3> 
 
-            <p className='info-text'>
+            <p className='secondary-text'>
               Buckle in and join John Patti Sr. for a two-hour trip to beaches, tiki bars,
               and holiday parties. There will be plenty of Trop Rock tunes along the
               way from some of your favorite artists like current Coral Reefers
@@ -41,9 +41,12 @@ const Home = () => {
               batch of gumbo with The Sauce Boss.
             </h4>
 
+            <h3>
+              Some of the other Trop Rock artists featured this year include:
+            </h3>
+
             <p className='info-text'>
-              Some of the other Trop Rock artists featured this year include: <br/> Brendan
-              Mayer, Tall Paul Bobal, Sunny Jim White, John Patti, Jimmy & The
+              Brendan Mayer, Tall Paul Bobal, Sunny Jim White, John Patti, Jimmy & The
               Parrots, Kelly McGuire, Isabella Stefania, Gary James Moeller, Mike
               Broward, as well as Kenny Chesney, and of course Jimmy Buffett.
             </p>
