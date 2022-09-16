@@ -94,7 +94,7 @@
       align-items: flex-end;
       flex-direction: column;
   
-      background: url("../../assets/images/background_flip.jpg");
+      background: url("../../assets/images/candy_canes.jpg");
       background-size: cover;
       background-position: center;
   
@@ -104,7 +104,7 @@
         width: 40px;
         height: 40px;
   
-        color: var(--white-color);
+        color: #ffffff;
         background-color: var(--darkGreen-color);
         border-radius: 5px;
         margin: 0.5rem 1rem;
@@ -126,9 +126,10 @@
           margin: 1.5rem;
   
           a {
-            color: var(--secondary-color);
+            color: #ffffff;
+            background-color: var(--secondary-color);
             text-shadow: -1px 0 black;
-            border-radius: 1px;
+            border-radius: 10px;
             text-decoration: none;
             font-size: 1.75rem;
             padding: 0.5rem 1rem;
@@ -144,6 +145,10 @@
               border: none;
             }
           }
+
+          img {
+            height: 150px;
+          }
         }
       }
   
@@ -155,39 +160,4 @@
     @media screen and (min-width: 920px) {
       display: none;
     }
-  
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      width: 100%;
-  
-      display: flex;
-      justify-content: flex-start;
-      align-items: flex-start;
-      flex-direction: column;
-  
-      li {
-        margin: 1rem;
-  
-        a {
-          color: var(--yellow-color);
-          text-shadow: -1px 0 black;
-          text-decoration: none;
-          font-size: 1rem;
-          text-transform: uppercase;
-          font-weight: 500;
-  
-          transition: all 0.3s ease-in-out;
-  
-          &:hover {
-            color: var(--secondary-color);
-          }
-        }
-      }
-    }
-    @media screen and (min-width: 920px) {
-      display: none;
-    }
-  }
+}
