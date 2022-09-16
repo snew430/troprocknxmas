@@ -9,7 +9,7 @@ import Footer from '../Footer/Footer';
 
 
 const Home = () => {
-  const snowflakes = new Snowflakes();
+  const snowflakes = new Snowflakes({ color: '#ffffff' });
   return (
     <div id="home">
       {/* <Snowfall
