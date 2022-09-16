@@ -103,14 +103,10 @@
   }
 
   $globe-width:   12px;
-$globe-height:  28px;
-$globe-spacing: 40px;
-$globe-spread: 3px;
-$light-off-opacity: 0.4;
-
-body {
-  background: #000;
-}
+  $globe-height:  28px;
+  $globe-spacing: 40px;
+  $globe-spread: 3px;
+  $light-off-opacity: 0.4;
 
 .lightrope {
   text-align: center;
@@ -122,6 +118,7 @@ body {
   padding-top: 6rem;
   pointer-events: none;
   width: 100%;
+  
   li {
     position: relative;
     animation-fill-mode: both; 
