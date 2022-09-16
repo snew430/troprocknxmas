@@ -1,3 +1,5 @@
+import dropDead from '../assets/images/drop_dead.jpg';
+
 const sponsors = [
   {
     name: 'Vaccaro’s Italian Pastry Shop',
@@ -7,7 +9,7 @@ const sponsors = [
   {
     name: 'We Are Drop Dead Dangerous',
     website: 'https://www.wearedropdeaddangerous.com/',
-    logo: '',
+    logo: dropDead,
   },
   {
     name: 'R.O.C Park',

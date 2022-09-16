@@ -79,7 +79,6 @@
     text-shadow: -3px 0 var(--darkGreen-color);
   }
 
-
   h3 {
     font-family: 'Mountains of Christmas', cursive;
     margin: 0.75rem;
@@ -101,11 +100,17 @@
     text-align: center;
   }
 
-  .sponsor-links{
+  .sponsor-logo {
+    width: 5rem;
+    height: auto;
+    border: 5px solid;
+  }
+
+  .sponsor-links {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
     a {
       font-size: 1.9rem;
       font-family: 'Mountains of Christmas', cursive;
