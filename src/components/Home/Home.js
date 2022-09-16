@@ -6,6 +6,7 @@ import sponsors from '../../info/sponsorInfo';
 
 import Footer from '../Footer/Footer';
 
+
 const Home = () => {
   return (
     <div id="home">
@@ -17,7 +18,11 @@ const Home = () => {
       />
       <div className='background'>
 
-          <h2 className="head-text">It's Trop Rockin' this Christmas</h2>
+        <div className='app__flex'>
+          <img src={logo} alt='trop rock christmas logo' className='logo'></img> 
+        </div>
+
+          {/* <h2 className="head-text">It's Trop Rockin' this Christmas</h2> */}
           {/* <img src={logo} alt="" id="home-logo" /> */}
           <div>
             <p className="info-text">
