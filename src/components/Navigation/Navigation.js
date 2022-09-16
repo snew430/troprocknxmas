@@ -10,7 +10,7 @@ const Navigation = () => {
 
   return (
     <nav className="app__navbar">
-      <h2>Trop Rock'n Christmas</h2>
+      <h2>A Trop Rockin Christmas</h2>
       <ul className="app__navbar-links">
           <li className="app__flex p-text">
             <Link as={Link} to="/home">

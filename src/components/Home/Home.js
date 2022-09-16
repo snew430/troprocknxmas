@@ -32,7 +32,7 @@ const Home = () => {
               Buckle in and join John Patti Sr. for a two-hour trip to beaches, tiki bars,
               and holiday parties. There will be plenty of Trop Rock tunes along the
               way from some of your favorite artists like current Coral Reefers
-              Peter Mayor, Doyle Grisham, Nadirah Shakor and original Coral Reefer
+              Peter Mayer, Doyle Grisham, Nadirah Shakor and original Coral Reefer
               Roger Bartlett. 
             </p>
 
