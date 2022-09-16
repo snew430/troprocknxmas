@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.scss';
 import Snowfall from 'react-snowfall';
+import Snowflakes from 'magic-snowflakes';
 import logo from '../../assets/images/TropRockLogo.png';
 import sponsors from '../../info/sponsorInfo';
 
@@ -8,14 +9,16 @@ import Footer from '../Footer/Footer';
 
 
 const Home = () => {
+  const snowflakes = new Snowflakes();
   return (
     <div id="home">
-      <Snowfall
+      {/* <Snowfall
         color="white"
         snowflakeCount={200}
         style={{ height: '60vh', position:'fixed' }}
         images={logo}
-      />
+      /> */}
+      snowflakes.start();
       <div className='background'>
 
         <div className='app__flex'>
