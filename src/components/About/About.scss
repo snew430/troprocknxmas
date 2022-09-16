@@ -1,17 +1,18 @@
 #about {
-  background: url('../../assets/images/presents.jpg');
+  background: url('../../assets/images/palms.jpg');
   background-size: cover;
   background-position: center;
   min-height: 100vh;
 
   .background {
-    background-color: rgba(105, 105, 105, 0.8);
+    background-color: rgba(105, 105, 105, 0.25);
     min-height: 100vh;
   }
 
   h2 {
     padding-top: 6rem;
-    font-size: 6.5rem;
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 7rem;
     font-weight: 600;
     text-align: center;
     color: var(--white-color);

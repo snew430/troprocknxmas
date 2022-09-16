@@ -1,43 +1,26 @@
 #home {
-  background: url('../../assets/images/redgreen.jpg');
+  background: url('../../assets/images/santarock1.jpg');
   background-size: cover;
-  background-position: center;
+  //background-position: center;
   min-height: 100vh;
 
-  .background{
-    background-color: rgba(105, 105, 105, 0.85);
+  .background {
+    background-color: rgba(49, 49, 49, 0.35);
     min-height: 100vh;
   }
 
-  .head-text {
-    padding-top: 6rem;
-    font-size: 6rem;
-    font-weight: 600;
-    text-align: center;
-    color: var(--white-color);
-    text-shadow: -10px 0 var(--darkRed-color);
-
-
-    @media screen and (max-width: 900px) {
-      font-size: 5rem;
-    }
-
-    @media screen and (max-width: 450px) {
-      font-size: 3rem;
-    }
+  img {
+    padding-top: 9rem;
+    justify-content: center;
+    height: 50vh;
   }
 
   .info-text {
-    font-size: 2.2rem;
-    font-weight: 500;
+    font-size: 2.15rem;
+    font-weight: 800;
     text-align: center;
     text-justify: inter-word;
-    color: var(--white-color);
-    //background-color: rgba(131, 40, 49, 0.15);
-    background-color: var(--darkGreen-color);
-    border: 25px;
-    border-style: double;
-    border-color: var(--white-color);
+    color: var(--gold-color);
     padding: 1rem;
     text-shadow: -2px 0 black;
     line-height: 1.5;
@@ -57,7 +40,7 @@
       font-size: 2rem;
       font-weight: 300;
       color: var(--white-color);
-      text-shadow: -1px 0 black;
+      text-shadow: -3px 0 var(--darkRed-color);
       text-decoration: none;
 
       @media screen and (max-width: 900px) {
@@ -69,21 +52,51 @@
       }
 
       &:hover {
-        color: var(--darkRed-color);
-        background-color: rgba(233, 227, 201, 0.8);
-        padding: 5px;
+        background-color: var(--darkRed-color);
+        padding: 8px;
         border-radius: 5px;
       }
     }
   }
 
+  .green-card {
+    color: var(--white-color);
+    background-color: var(--darkGreen-color);
+    border: 25px;
+    border-style: double;
+    border-color: var(--white-color);
+    padding: 1rem;
+    text-shadow: -3px 0 var(--darkRed-color);
+  }
+
+  .red-card {
+    color: var(--white-color);
+    background-color: var(--darkRed-color);
+    border: 25px;
+    border-style: double;
+    border-color: var(--white-color);
+    padding: 1rem;
+    text-shadow: -3px 0 var(--darkGreen-color);
+  }
+
+
   h3 {
+    font-family: 'Mountains of Christmas', cursive;
     margin: 0.75rem;
     padding: 0.25rem 1rem;
     color: var(--white-color);
     text-shadow: -5px 0 var(--darkRed-color);
     border-bottom: 5px;
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .funky {
+    color: var(--white-color);
+    text-shadow: -5px 0 var(--darkGreen-color);
+    border-bottom: 5px;
+    font-size: 2.5rem;
     font-weight: 600;
     text-align: center;
   }
@@ -94,21 +107,20 @@
     justify-content: center;
     
     a {
-      font-size: 2.25rem;
+      font-size: 1.9rem;
+      font-family: 'Mountains of Christmas', cursive;
       font-weight: bold;
       text-decoration: none;
       background-color: var(--white-color);
-      color: var(--darkRed-color);
+      color: var(--primary-color);
+      text-shadow: -3px 0 var(--darkRed-color);
       margin: 2rem;
       padding: 0.5rem 1rem;
-      border-radius: 10px;
-      border-style: groove;
-      border-width: 5px;
-      border-color: var(--white-color);
+      border-radius: 5px;
 
       &:hover {
         color: var(--white-color);
-        background-color: var(--darkGreen-color);
+        background-color: var(--primary-color);
       }
     }
   }
