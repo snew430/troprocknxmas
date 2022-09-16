@@ -33,7 +33,7 @@ const Home = () => {
 
             <h3> Merry Christmas everyone! </h3> 
 
-            <p className='secondary-text'>
+            <p className='info-text green-card'>
               Buckle in and join John Patti Sr. for a two-hour trip to beaches, tiki bars,
               and holiday parties. There will be plenty of Trop Rock tunes along the
               way from some of your favorite artists like current Coral Reefers
@@ -41,10 +41,10 @@ const Home = () => {
               Roger Bartlett. 
             </p>
 
-            <h4>
+            <h3 className='funky'>
               We will even go south of border with Brent Burns and mix up a
               batch of gumbo with The Sauce Boss.
-            </h4>
+            </h3>
 
             <h3>
               Some of the other Trop Rock artists featured this year include:
@@ -56,7 +56,7 @@ const Home = () => {
               Broward, as well as Kenny Chesney, and of course Jimmy Buffett.
             </p>
 
-            <p className='info-text'>
+            <p className='info-text red-card'>
               We also take you across the country at Christmas to visit with
               some of the people who make it possible for us to enjoy Trop Rock
               music like Dr. Joe Thornhill in Chicago, The Lake Shark Parrott Head
@@ -64,9 +64,9 @@ const Home = () => {
               at the annual “Music On The Bay” in Tampa.
             </p>
 
-            <h4>
+            <h3 className='funky'>
               Plus... Parrothead Christmas confessions!
-            </h4>
+            </h3>
 
             <p className='info-text'>
               Grab your boat drink, slip into your flip flops, and don't forget your passport. 

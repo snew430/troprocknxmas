@@ -15,40 +15,16 @@
     height: 50vh;
   }
 
-  .head-text {
-    padding-top: 7rem;
-    font-family: 'Mountains of Christmas', cursive;
-    font-size: 7rem;
-    font-weight: 600;
-    text-align: center;
-    color: var(--white-color);
-    text-shadow: -10px 0 var(--darkRed-color);
-
-
-    @media screen and (max-width: 900px) {
-      font-size: 5rem;
-    }
-
-    @media screen and (max-width: 450px) {
-      font-size: 3rem;
-    }
-  }
-
   .info-text {
     font-size: 2.15rem;
     font-weight: 800;
     text-align: center;
     text-justify: inter-word;
     color: var(--gold-color);
-    //background-color: rgba(131, 40, 49, 0.15);
-    //background-color: var(--darkGreen-color);
-    //border: 25px;
-    //border-style: double;
-    //border-color: var(--white-color);
     padding: 1rem;
     text-shadow: -2px 0 black;
     line-height: 1.5;
-    margin: 20px 150px 15px;
+    margin: 20px 15rem 15px;
 
     @media screen and (max-width: 900px) {
       font-size: 1.6rem;
@@ -76,17 +52,14 @@
       }
 
       &:hover {
-        color: var(--darkGreen-color);
-        padding: 5px;
-        text-shadow: -1px 0 var(--white-color);
+        background-color: var(--darkRed-color);
+        padding: 8px;
+        border-radius: 5px;
       }
     }
   }
-  .secondary-text {
-    font-size: 2.15rem;
-    font-weight: 600;
-    text-align: center;
-    text-justify: inter-word;
+
+  .green-card {
     color: var(--white-color);
     background-color: var(--darkGreen-color);
     border: 25px;
@@ -94,39 +67,36 @@
     border-color: var(--white-color);
     padding: 1rem;
     text-shadow: -3px 0 var(--darkRed-color);
-    line-height: 1.5;
-    margin: 20px 7rem 15px;
-
-    @media screen and (max-width: 900px) {
-      font-size: 1.6rem;
-      margin: 40px 70px 10px;
-    }
-
-    @media screen and (max-width: 450px) {
-      font-size: 1.25rem;
-      margin: 20px 10px 10px;
-    }
   }
 
+  .red-card {
+    color: var(--white-color);
+    background-color: var(--darkRed-color);
+    border: 25px;
+    border-style: double;
+    border-color: var(--white-color);
+    padding: 1rem;
+    text-shadow: -3px 0 var(--darkGreen-color);
+  }
+
+
   h3 {
+    font-family: 'Mountains of Christmas', cursive;
     margin: 0.75rem;
     padding: 0.25rem 1rem;
     color: var(--white-color);
     text-shadow: -5px 0 var(--darkRed-color);
     border-bottom: 5px;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 600;
     text-align: center;
   }
 
-  h4 {
-    margin: 0.75rem;
-    padding: 0.25rem 1rem;
+  .funky {
     color: var(--white-color);
     text-shadow: -5px 0 var(--darkGreen-color);
     border-bottom: 5px;
-    font-size: 2.25rem;
-    font-family: 'Mountains of Christmas', cursive;
+    font-size: 2.5rem;
     font-weight: 600;
     text-align: center;
   }
