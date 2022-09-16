@@ -3,12 +3,13 @@ import cookie from '../../assets/images/cookie.jpeg';
 import baking from '../../assets/images/baking.jpeg';
 import './Cookie.scss';
 import Footer from '../Footer/Footer';
-
+import Lights from '../Lights/Lights';
 
 const Cookie = () => {
   return (
     <div id="cookie">
       <div className='background'>
+        <Lights />
         <h2 className='head-text'>Ahhhh.... The Cookies</h2>
         <p className='info-text'>You can support our fundraiser by buying cookies!</p>
         <div className='images'>

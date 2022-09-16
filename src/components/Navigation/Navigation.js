@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/images/TropRockLogo.png';
 
 import './Navigation.scss';
 
@@ -10,7 +11,7 @@ const Navigation = () => {
 
   return (
     <nav className="app__navbar">
-      <h2>Trop Rock'n Christmas</h2>
+      <h2>A Trop Rockin Christmas</h2>
       <ul className="app__navbar-links">
           <li className="app__flex p-text">
             <Link as={Link} to="/home">
@@ -53,6 +54,9 @@ const Navigation = () => {
                   <Link as={Link} to="/about"  className="app__flex p-text">
                       About Us
                   </Link>
+                </li>
+                <li className='app__flex'>
+                  <img src={logo} alt="trop rock logo"></img>
                 </li>
                 </ul>
             </motion.div>
