@@ -6,7 +6,7 @@ import logo from '../../assets/images/TropRockLogo.png';
 import sponsors from '../../info/sponsorInfo';
 
 import Footer from '../Footer/Footer';
-
+import Lights from '../Lights/Lights';
 
 const Home = () => {
   const snowflakes = new Snowflakes({ color: '#ffffff' });
@@ -20,7 +20,7 @@ const Home = () => {
       /> */}
       snowflakes.start();
       <div className='background'>
-
+        <Lights />
         <div className='app__flex'>
           <img src={logo} alt='trop rock christmas logo' className='logo'></img> 
         </div>
