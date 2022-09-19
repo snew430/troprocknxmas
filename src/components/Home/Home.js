@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.scss';
-//import Snowfall from 'react-snowfall';
-import Snowflakes from 'magic-snowflakes';
+import Snowfall from 'react-snowfall';
+//import Snowflakes from 'magic-snowflakes';
 import logo from '../../assets/images/TropRockLogo.png';
 import sponsors from '../../info/sponsorInfo';
 import musicians from '../../info/musicianInfo';
@@ -10,15 +10,9 @@ import Footer from '../Footer/Footer';
 import Lights from '../Lights/Lights';
 
 const Home = () => {
-  const snowflakes = new Snowflakes({ color: '#ffffff' });
   return (
     <div id="home">
-      {/* <Snowfall
-        color="white"
-        snowflakeCount={200}
-        style={{ height: '60vh', position:'fixed' }}
-        images={logo}
-      /> */}
+
       {/* //snowflakes.start(); */}
       <div className='background'>
         <Lights />
