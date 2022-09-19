@@ -103,9 +103,8 @@
       svg {
         width: 40px;
         height: 40px;
-  
         color: #ffffff;
-        background-color: var(--darkGreen-color);
+        background-color: var(--primary-color);
         border-radius: 5px;
         margin: 0.5rem 1rem;
       }
@@ -127,10 +126,11 @@
   
           a {
             color: #ffffff;
-            background-color: var(--secondary-color);
+            background-color: var(--primary-color);
             text-shadow: -1px 0 black;
             border-radius: 10px;
             text-decoration: none;
+            text-align: center;
             font-size: 1.75rem;
             padding: 0.5rem 1rem;
             font-weight: 500;
