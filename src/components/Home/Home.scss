@@ -61,7 +61,7 @@
 
   .green-card {
     color: var(--white-color);
-    background-color: var(--darkGreen-color);
+    background-color: var(--primary-color);
     border: 25px;
     border-style: double;
     border-color: var(--white-color);
@@ -71,7 +71,7 @@
 
   .red-card {
     color: var(--white-color);
-    background-color: var(--darkRed-color);
+    background-color: var(--secondary-color);
     border: 25px;
     border-style: double;
     border-color: var(--white-color);
@@ -145,7 +145,7 @@
       text-decoration: none;
       background-color: var(--white-color);
       color: var(--primary-color);
-      text-shadow: -3px 0 var(--darkRed-color);
+      text-shadow: -3px 0 black;
       margin: 2rem;
       padding: 0.5rem 1rem;
       border-radius: 5px;
