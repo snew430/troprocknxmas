@@ -1,5 +1,5 @@
 #home {
-  background: url('../../assets/images/santarock1.jpg');
+  background: url('../../assets/images/santarock2.jpg');
   background-size: cover;
   //background-position: center;
   min-height: 100vh;
@@ -52,7 +52,7 @@
       }
 
       &:hover {
-        background-color: var(--darkRed-color);
+        background-color: var(--primary-color);
         padding: 8px;
         border-radius: 5px;
       }

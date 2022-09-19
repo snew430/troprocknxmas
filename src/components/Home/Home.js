@@ -12,7 +12,6 @@ import Lights from '../Lights/Lights';
 const Home = () => {
   return (
     <div id="home">
-
       {/* //snowflakes.start(); */}
       <div className='background'>
         <Lights />
@@ -64,10 +63,10 @@ const Home = () => {
 
           <h3 className="funky">Plus... Parrothead Christmas confessions!</h3>
 
-          <p className="info-text">
+          <h3>
             Grab your boat drink, slip into your flip flops, and don't forget
             your passport.
-          </p>
+          </h3>
 
           <p className="info-text">
             Check airing times exclusively at{' '}
