@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c5874bc7.css",
-    "main.js": "/static/js/main.1b62d14b.js",
+    "main.css": "/static/css/main.a09d5dc1.css",
+    "main.js": "/static/js/main.caa4b504.js",
     "static/media/studio.jpg": "/static/media/studio.a8c5a74ff02186132bc3.jpg",
     "static/media/baking.jpeg": "/static/media/baking.80a01d7645b2d459e06f.jpeg",
     "static/media/cookie.jpeg": "/static/media/cookie.fc3e3d1e90b6fde5230f.jpeg",
@@ -9,15 +9,16 @@
     "static/media/cookies.jpg": "/static/media/cookies.e9d1d21296dce144ce75.jpg",
     "static/media/TropRockLogo.png": "/static/media/TropRockLogo.a53a9e27b3298c00fd54.png",
     "static/media/candy_canes.jpg": "/static/media/candy_canes.45fd9aec742bf39c45fa.jpg",
-    "static/media/santarock1.jpg": "/static/media/santarock1.1d6ff5e284348256f95a.jpg",
+    "static/media/santarock2.jpg": "/static/media/santarock2.6ab02f18d1a86b794edd.jpg",
+    "static/media/drop_dead.jpg": "/static/media/drop_dead.431d7a08a5e458d3b62c.jpg",
     "static/media/JohnPatti.jpg": "/static/media/JohnPatti.1a74a9614660a3d2fadc.jpg",
     "static/media/JoeEvelius.jpg": "/static/media/JoeEvelius.0ac0e4fd87528c540d10.jpg",
     "index.html": "/index.html",
-    "main.c5874bc7.css.map": "/static/css/main.c5874bc7.css.map",
-    "main.1b62d14b.js.map": "/static/js/main.1b62d14b.js.map"
+    "main.a09d5dc1.css.map": "/static/css/main.a09d5dc1.css.map",
+    "main.caa4b504.js.map": "/static/js/main.caa4b504.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5874bc7.css",
-    "static/js/main.1b62d14b.js"
+    "static/css/main.a09d5dc1.css",
+    "static/js/main.caa4b504.js"
   ]
 }
