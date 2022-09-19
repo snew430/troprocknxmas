@@ -11,7 +11,7 @@ const AboutCard = ({ person }) => {
     <>
         <div className='person'>
           <img src={pic} alt={person.title}/>
-          <h3><a href={`mailto:${link}`} target="_blank" rel="noreferrer">{title} <FiMail/></a></h3>
+          <h3><a href={`mailto:${link}`} target="_blank" rel="noreferrer">{title} <FiMail className='icon'/></a></h3>
           <p className='info-text'>{bio}</p>
         </div>
     </>
