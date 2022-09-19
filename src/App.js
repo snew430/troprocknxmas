@@ -8,12 +8,18 @@ import {
   Cookie,
 } from './components/index';
 // import DateCountdown from 'react-date-countdown-timer';
+import Snowfall from 'react-snowfall';
 
 function App() {
   // const [tilXmas] = useState('2022-12-25');
 
   return (
     <Router>
+      <Snowfall
+        color="white"
+        snowflakeCount={200}
+        style={{ height: '60vh', position:'fixed' }}
+      />
       <div className='app'>
         <Navigation />
         {/* <DateCountdown dateTo={tilXmas} callback={() => alert('Hello')} /> */}

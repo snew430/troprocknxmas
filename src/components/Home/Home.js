@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.scss';
-//import Snowfall from 'react-snowfall';
-import Snowflakes from 'magic-snowflakes';
+import Snowfall from 'react-snowfall';
+//import Snowflakes from 'magic-snowflakes';
 import logo from '../../assets/images/TropRockLogo.png';
 import sponsors from '../../info/sponsorInfo';
 import musicians from '../../info/musicianInfo';
@@ -10,15 +10,8 @@ import Footer from '../Footer/Footer';
 import Lights from '../Lights/Lights';
 
 const Home = () => {
-  const snowflakes = new Snowflakes({ color: '#ffffff' });
   return (
     <div id="home">
-      {/* <Snowfall
-        color="white"
-        snowflakeCount={200}
-        style={{ height: '60vh', position:'fixed' }}
-        images={logo}
-      /> */}
       {/* //snowflakes.start(); */}
       <div className='background'>
         <Lights />
@@ -37,7 +30,7 @@ const Home = () => {
 
           <h3> Merry Christmas everyone! </h3>
 
-          <p className="info-text green-card">
+          <p className="info-text red-card">
             Buckle in and join John Patti Sr. for a two-hour trip to beaches,
             tiki bars, and holiday parties. There will be plenty of Trop Rock
             tunes along the way from some of your favorite artists like current
@@ -60,7 +53,7 @@ const Home = () => {
               ))}
             </div>
 
-          <p className="info-text red-card">
+          <p className="info-text green-card">
             We also take you across the country at Christmas to visit with some
             of the people who make it possible for us to enjoy Trop Rock music
             like Dr. Joe Thornhill in Chicago, The Lake Shark Parrott Head Club
@@ -70,10 +63,10 @@ const Home = () => {
 
           <h3 className="funky">Plus... Parrothead Christmas confessions!</h3>
 
-          <p className="info-text">
+          <h3>
             Grab your boat drink, slip into your flip flops, and don't forget
             your passport.
-          </p>
+          </h3>
 
           <p className="info-text">
             Check airing times exclusively at{' '}
