@@ -79,7 +79,6 @@
     text-shadow: -3px 0 var(--darkGreen-color);
   }
 
-
   h3 {
     font-family: 'Mountains of Christmas', cursive;
     margin: 0.75rem;
@@ -100,6 +99,12 @@
     font-weight: 600;
     text-align: center;
   }
+
+
+  .sponsor-logo {
+    width: 5rem;
+    height: auto;
+    border: 5px solid;
 
   .musicians-list {
     display: flex;
@@ -135,9 +140,9 @@
 
   .sponsor-links {
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     justify-content: center;
-    
+
     a {
       font-size: 1.9rem;
       font-family: 'Mountains of Christmas', cursive;
@@ -147,8 +152,10 @@
       color: var(--primary-color);
       text-shadow: -3px 0 var(--darkRed-color);
       margin: 2rem;
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
+      padding: 3rem;
+      border-radius: 50%;
+      width: 20rem;
+      text-align: center;
 
       &:hover {
         color: var(--white-color);

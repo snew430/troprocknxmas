@@ -5,7 +5,6 @@ import Card from 'react-bootstrap/Card';
 
 const AboutCard = ({ person }) => {
   const { title, bio, pic, link } = person;
-  console.log(link);
   return (
     <>
         <div className='person'>
