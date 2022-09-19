@@ -13,10 +13,10 @@
     padding-top: 6rem;
     font-family: 'Mountains of Christmas', cursive;
     font-size: 7rem;
-    font-weight: 600;
+    font-weight: 800;
     text-align: center;
     color: var(--white-color);
-    text-shadow: -10px 0 var(--darkRed-color);
+    text-shadow: -10px 0 var(--darkGreen-color);
 
     @media screen and (max-width: 900px) {
       font-size: 5rem;
@@ -56,7 +56,7 @@
     text-align: center;
     text-justify: inter-word;
     color: var(--white-color);
-    background-color: var(--darkRed-color);
+    background-color: var(--primary-color);
     border: 20px;
     border-style: double;
     border-color: var(--white-color);
@@ -117,19 +117,36 @@
 
       .info-text {
           width: 40rem;
-          background-color: var(--darkGreen-color);
+          background-color: var(--lightRed-color);
           font-size: 1.65rem;
           margin: 1rem;
+
+          @media screen and (max-width: 900px) {
+            width: 90%;
+          }
+    
       }
 
       h3 {
         a {
           text-decoration: none;
+          font-family: 'Mountains of Christmas', cursive;
+          font-weight: 800;
           font-size: 4rem;
           color: var(--white-color);
-          text-shadow: -1px 0 black;
-          background-color: var(--darkRed-color);
+          // border: solid;
+          // border-color: var(--secondary-color);
+          text-shadow: -3px 0 var(--secondary-color);
+          background-color: var(--primary-color);
           padding: 0.5rem 1rem;
+
+          @media screen and (max-width: 900px) {
+            font-size: 1.6rem;
+          }
+    
+          @media screen and (max-width: 450px) {
+            font-size: 2.5rem;
+          }
         }
       }
     }
