@@ -35,7 +35,7 @@ const Home = () => {
             tiki bars, and holiday parties. There will be plenty of Trop Rock
             tunes along the way from some of your favorite artists like current
             Coral Reefers Peter Mayer, Doyle Grisham, Nadirah Shakor and
-            original Coral Reefer Roger Bartlett.We will even go south of border with Brent Burns and mix up a batch
+            original Coral Reefer Roger Bartlett. We will even go south of border with Brent Burns and mix up a batch
             of gumbo with The Sauce Boss.
           </p>
 
