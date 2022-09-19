@@ -1,9 +1,10 @@
 import React from 'react';
 import './Home.scss';
-import Snowfall from 'react-snowfall';
+//import Snowfall from 'react-snowfall';
 import Snowflakes from 'magic-snowflakes';
 import logo from '../../assets/images/TropRockLogo.png';
 import sponsors from '../../info/sponsorInfo';
+import musicians from '../../info/musicianInfo';
 
 import Footer from '../Footer/Footer';
 import Lights from '../Lights/Lights';
@@ -18,8 +19,8 @@ const Home = () => {
         style={{ height: '60vh', position:'fixed' }}
         images={logo}
       /> */}
-      snowflakes.start();
-      <div className="background">
+      {/* //snowflakes.start(); */}
+      <div className='background'>
         <Lights />
         <div className="app__flex">
           <img src={logo} alt="trop rock christmas logo" className="logo"></img>
@@ -53,11 +54,11 @@ const Home = () => {
             Some of the other Trop Rock artists featured this year include:
           </h3>
 
-          <p className="info-text">
-            Brendan Mayer, Tall Paul Bobal, Sunny Jim White, John Patti, Jimmy &
-            The Parrots, Kelly McGuire, Isabella Stefania, Gary James Moeller,
-            Mike Broward, as well as Kenny Chesney, and of course Jimmy Buffett.
-          </p>
+            <div className='app__flex musicians-list'>
+              {musicians.map(musician => (
+                <li>{musician}</li>
+              ))}
+            </div>
 
           <p className="info-text red-card">
             We also take you across the country at Christmas to visit with some

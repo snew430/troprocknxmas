@@ -100,10 +100,42 @@
     text-align: center;
   }
 
+
   .sponsor-logo {
     width: 5rem;
     height: auto;
     border: 5px solid;
+
+  .musicians-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 3rem;
+
+    li {
+      font-family: 'Mountains of Christmas', cursive;
+      font-size: 3rem;
+      list-style: none;
+      padding: 1rem 2rem;
+      margin: 2rem;
+      color: #ffffff;
+      background-color: var(--primary-color);
+      border-radius: 10px;
+
+      &:nth-child(odd){
+        background-color: var(--secondary-color);
+      }
+
+      @media screen and (max-width: 900px) {
+        font-size: 1.6rem;
+        margin: 40px 70px 10px;
+      }
+  
+      @media screen and (max-width: 450px) {
+        font-size: 1.25rem;
+        margin: 20px 10px 10px;
+      }
+    }
   }
 
   .sponsor-links {
