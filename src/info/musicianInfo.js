@@ -1,4 +1,8 @@
 const musicians = [
+    'Peter Mayer',
+    'Doyle Grisham',
+    'Nadirah Shakor',
+    'Roger Bartlett',
     'Brendan Mayer', 
     'Tall Paul Bobal', 
     'Sunny Jim White', 
