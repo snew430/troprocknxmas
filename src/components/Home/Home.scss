@@ -108,7 +108,7 @@
 
   .sponsor-links {
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     justify-content: center;
 
     a {
@@ -120,8 +120,10 @@
       color: var(--primary-color);
       text-shadow: -3px 0 var(--darkRed-color);
       margin: 2rem;
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
+      padding: 3rem;
+      border-radius: 50%;
+      width: 20rem;
+      text-align: center;
 
       &:hover {
         color: var(--white-color);

@@ -89,12 +89,11 @@ const Home = () => {
                 href={sponsor.website}
                 target="_blank"
                 rel="noreferrer"
+                className="sponsor-link"
                 style={{
                   backgroundImage: `url(${sponsor.logo})`,
                   backgroundPosition: 'center',
                   backgroundSize: 'cover',
-                  height: '5rem',
-                  width: '5rem',
                 }}
               >
                 {' '}
@@ -104,6 +103,7 @@ const Home = () => {
                 key={sponsor.name}
                 href={sponsor.website}
                 target="_blank"
+                className="sponsor-link"
                 rel="noreferrer"
               >
                 {sponsor.name}
