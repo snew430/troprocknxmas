@@ -81,7 +81,6 @@
     text-shadow: -3px 0 var(--darkGreen-color);
   }
 
-
   h3 {
     font-family: 'Mountains of Christmas', cursive;
     margin: 0.75rem;
@@ -119,7 +118,7 @@
       background-color: var(--primary-color);
       border-radius: 10px;
 
-      &:nth-child(odd){
+      &:nth-child(odd) {
         background-color: var(--secondary-color);
       }
 
@@ -127,7 +126,7 @@
         font-size: 1.6rem;
         margin: 40px 70px 10px;
       }
-  
+
       @media screen and (max-width: 450px) {
         font-size: 1.25rem;
         margin: 20px 10px 10px;
@@ -137,9 +136,8 @@
 
   .sponsor-links {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    
+
     a {
       font-size: 1.9rem;
       font-family: 'Mountains of Christmas', cursive;
@@ -149,8 +147,10 @@
       color: var(--primary-color);
       text-shadow: -3px 0 black;
       margin: 2rem;
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
+      padding: 1.5rem;
+      border-radius: 50%;
+      width: 25rem;
+      text-align: center;
 
       &:hover {
         color: var(--white-color);
