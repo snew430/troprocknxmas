@@ -13,7 +13,7 @@ function App() {
       <Snowfall
         color="white"
         snowflakeCount={25}
-        style={{ height: '100vh', position: 'fixed' }}
+        style={{ height: '90vh', position: 'fixed' }}
       />
       <div className="app">
         <Navigation />

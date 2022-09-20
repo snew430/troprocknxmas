@@ -6,7 +6,7 @@
   
     padding: 1rem 2rem 0.5rem;
     background: var(--secondary-color);
-    opacity: 0.75;
+    //opacity: 0.75;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.18);
@@ -21,15 +21,35 @@
   h2 {
     color: var(--white-color);
     font-family: 'Mountains of Christmas', cursive;
+    font-size: 2.75rem;
     font-weight: 900;
-    margin: 0 1rem;
+    margin: 0 1rem 0 0.25rem;
+  }
+
+  .sponsor {
+    font-size: 1.5rem;
+    color: var(--white-color);
+    justify-content: center;
+    
+    a {
+      text-decoration: none;
+      margin: 0 1rem 0 0.25rem;
+      color: var(--white-color);
+
+      &:hover {
+        background-color: var(--primary-color);
+        border-radius: 5px;
+        padding: 5px;
+        border: none;
+      }
+    }
   }
   
   .app__navbar-links {
     flex: 1;
     display: flex;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: center;
   
     list-style: none;
   
@@ -38,20 +58,21 @@
       cursor: pointer;
 
       a {
+        font-size: 1.75rem;
         color: var(--white-color);
         text-shadow: -1px 0 black;
         text-decoration: none;
         flex-direction: column;
   
-        font-weight: 500;
+        font-weight: 400;
   
         transition: all 0.3s ease-in-out;
   
         &:hover {
           color: var(--white-color);
           background-color: var(--primary-color);
-          border-radius: 10px;
-          padding: 0.5rem 1rem;
+          border-radius: 5px;
+          padding: 0.25rem 1rem;
           border: none;
         }
       }
@@ -71,8 +92,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--darkRed-color);
-
+    background-color: var(--primary-color);
   
     svg {
       width: 70%;
@@ -87,7 +107,7 @@
       right: 0;
       z-index: 5;
   
-      padding: 1rem;
+      padding: 1.5rem;
   
       width: 80%;
       height: 100vh;
