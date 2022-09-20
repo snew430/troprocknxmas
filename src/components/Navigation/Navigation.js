@@ -33,6 +33,11 @@ const Navigation = () => {
             About Us
           </Link>
         </li>
+        <li className="app__flex p-text">
+          <Link as={Link} to="/home" className="app__flex p-text">
+            Audio
+          </Link>
+        </li>
       </ul>
 
       <div className="app__navbar-menu">
@@ -57,6 +62,11 @@ const Navigation = () => {
               <li className="app__flex p-text">
                 <Link as={Link} to="/about" className="app__flex p-text">
                   About Us
+                </Link>
+              </li>
+              <li className="app__flex p-text">
+                <Link as={Link} to="/home" className="app__flex p-text">
+                  Audio
                 </Link>
               </li>
               <li className="app__flex">
