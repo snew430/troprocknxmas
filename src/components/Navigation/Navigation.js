@@ -11,7 +11,10 @@ const Navigation = () => {
 
   return (
     <nav className="app__navbar">
-      <h2>A Trop Rockin Christmas</h2>
+      <div className='flex direction column'>
+        <h2>A Trop Rockin Christmas</h2>
+        <h2 className='d-flex justify-content-end sponsor'>presented by <a href='https://www.vaccarospastry.com/'>Vaccaro’s Italian Pastry Shop</a></h2>
+      </div>  
       <ul className="app__navbar-links">
         <li className="app__flex p-text">
           <Link as={Link} to="/home">
