@@ -1,7 +1,5 @@
 import React from 'react';
 import './Home.scss';
-import Snowfall from 'react-snowfall';
-//import Snowflakes from 'magic-snowflakes';
 import logo from '../../assets/images/TropRockLogo.png';
 import sponsors from '../../info/sponsorInfo';
 import musicians from '../../info/musicianInfo';
@@ -12,15 +10,12 @@ import Lights from '../Lights/Lights';
 const Home = () => {
   return (
     <div id="home">
-      {/* //snowflakes.start(); */}
       <div className='background'>
         <Lights />
         <div className="app__flex">
           <img src={logo} alt="trop rock christmas logo" className="logo"></img>
         </div>
 
-        {/* <h2 className="head-text">It's Trop Rockin' this Christmas</h2> */}
-        {/* <img src={logo} alt="" id="home-logo" /> */}
         <div>
           <p className="info-text">
             From the California Coast to the Florida Keys and beyond...

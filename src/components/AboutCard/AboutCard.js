@@ -3,8 +3,6 @@ import Card from 'react-bootstrap/Card';
 
 import { FiMail } from "react-icons/fi";
 
-//import './AboutCard.scss'
-
 const AboutCard = ({ person }) => {
   const { title, bio, pic, link } = person;
   return (

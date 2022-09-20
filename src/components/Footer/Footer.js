@@ -13,9 +13,6 @@ const Footer = () => {
       <a href="mailto:">
         <MdEmail className="icon" />
       </a>
-      {/* <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
-        <AiFillFacebook className="icon" />
-      </a> */}
     </div>
   );
 };
