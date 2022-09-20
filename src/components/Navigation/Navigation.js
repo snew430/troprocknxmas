@@ -14,7 +14,7 @@ const Navigation = () => {
       <div className='flex direction column'>
         <h2>A Trop Rockin Christmas</h2>
         <div className='flex direction row'>
-          <h2 className='d-flex justify-content-end sponsor'>presented by <a href='https://www.vaccarospastry.com/'>Vaccaro’s Italian Pastry Shop</a></h2>
+          <h2 className='sponsor'>presented by <a href='https://www.vaccarospastry.com/'>Vaccaro’s Italian Pastry Shop</a></h2>
         </div>
       </div>  
       <ul className="app__navbar-links">
