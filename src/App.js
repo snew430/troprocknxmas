@@ -17,8 +17,8 @@ function App() {
     <Router>
       <Snowfall
         color="white"
-        snowflakeCount={200}
-        style={{ height: '60vh', position:'fixed' }}
+        snowflakeCount={100}
+        style={{ height: '90vh', position:'fixed' }}
       />
       <div className='app'>
         <Navigation />

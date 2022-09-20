@@ -14,7 +14,7 @@ const About = () => {
           It's a Trop Rockin' Christmas!
         </h2>
         <div className="studio-content">
-          <img src={studio} alt="studio" />
+            <img src={studio} alt="studio"></img>
           <p className="info-text">
             A two-hour coast to coast radio broadcast all about beaches, tiki
             bars, boat drinks, flip flops, family, and friends exclusively on

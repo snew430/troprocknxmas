@@ -11,7 +11,12 @@ const Navigation = () => {
 
   return (
     <nav className="app__navbar">
-      <h2>A Trop Rockin Christmas</h2>
+      <div className='flex direction column'>
+        <h2>A Trop Rockin Christmas</h2>
+        <div className='flex direction row'>
+          <h2 className='sponsor'>presented by <a href='https://www.vaccarospastry.com/'>Vaccaro’s Italian Pastry Shop</a></h2>
+        </div>
+      </div>  
       <ul className="app__navbar-links">
         <li className="app__flex p-text">
           <Link as={Link} to="/home">
@@ -26,6 +31,11 @@ const Navigation = () => {
         <li className="app__flex p-text">
           <Link as={Link} to="/about">
             About Us
+          </Link>
+        </li>
+        <li className="app__flex p-text">
+          <Link as={Link} to="/home" className="app__flex p-text">
+            Audio
           </Link>
         </li>
       </ul>
@@ -52,6 +62,11 @@ const Navigation = () => {
               <li className="app__flex p-text">
                 <Link as={Link} to="/about" className="app__flex p-text">
                   About Us
+                </Link>
+              </li>
+              <li className="app__flex p-text">
+                <Link as={Link} to="/home" className="app__flex p-text">
+                  Audio
                 </Link>
               </li>
               <li className="app__flex">
