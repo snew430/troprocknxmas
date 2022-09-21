@@ -2,7 +2,6 @@ import React from 'react';
 import './Footer.scss';
 import { BsTwitter } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
-import { AiFillFacebook } from 'react-icons/ai';
 
 const Footer = () => {
   return (
