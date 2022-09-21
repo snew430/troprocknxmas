@@ -10,7 +10,7 @@ import Lights from '../Lights/Lights';
 const Home = () => {
   return (
     <div id="home">
-      <div className='background'>
+      <div className="background">
         <Lights />
         <div className="app__flex">
           <img src={logo} alt="trop rock christmas logo" className="logo"></img>
@@ -30,19 +30,18 @@ const Home = () => {
             tiki bars, and holiday parties. There will be plenty of Trop Rock
             tunes along the way from some of your favorite artists like current
             Coral Reefers Peter Mayer, Doyle Grisham, Nadirah Shakor and
-            original Coral Reefer Roger Bartlett. We will even go south of border with Brent Burns and mix up a batch
-            of gumbo with The Sauce Boss.
+            original Coral Reefer Roger Bartlett. We will even go south of
+            border with Brent Burns and mix up a batch of gumbo with The Sauce
+            Boss.
           </p>
 
-          <h3>
-            Trop Rock artists featured this year include:
-          </h3>
+          <h3>Trop Rock artists featured this year include:</h3>
 
-            <div className='app__flex musicians-list'>
-              {musicians.map(musician => (
-                <li>{musician}</li>
-              ))}
-            </div>
+          <div className="app__flex musicians-list">
+            {musicians.map((musician) => (
+              <li>{musician}</li>
+            ))}
+          </div>
 
           <p className="info-text green-card">
             We also take you across the country at Christmas to visit with some
@@ -61,7 +60,13 @@ const Home = () => {
 
           <p className="info-text">
             Check airing times exclusively at{' '}
-            <a href="https://radiotroprock.com/">radiotroprock.com</a>
+            <a
+              href="https://radiotroprock.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              radiotroprock.com
+            </a>
           </p>
         </div>
 

@@ -11,12 +11,21 @@ const Navigation = () => {
 
   return (
     <nav className="app__navbar">
-      <div className='flex direction column'>
+      <div className="flex direction column">
         <h2>A Trop Rockin Christmas</h2>
-        <div className='flex direction row'>
-          <h2 className='sponsor'>presented by <a href='https://www.vaccarospastry.com/'>Vaccaro’s Italian Pastry Shop</a></h2>
+        <div className="flex direction row">
+          <h2 className="sponsor">
+            presented by{' '}
+            <a
+              href="https://www.vaccarospastry.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Vaccaro’s Italian Pastry Shop
+            </a>
+          </h2>
         </div>
-      </div>  
+      </div>
       <ul className="app__navbar-links">
         <li className="app__flex p-text">
           <Link as={Link} to="/home">
