@@ -41,7 +41,10 @@ const Navigation = () => {
       </ul>
 
       <div className="app__navbar-menu">
-        <HiMenuAlt4 onClick={() => setToggle(true)} />
+      <HiMenuAlt4
+          className="cursor-item"
+          onClick={() => setToggle(!toggle)}
+      />
         {toggle && (
           <motion.div
             whileInView={{ x: [300, 0] }}

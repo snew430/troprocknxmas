@@ -10,7 +10,7 @@
   }
 
   h2 {
-    padding-top: 6rem;
+    padding-top: 7rem;
     font-family: 'Mountains of Christmas', cursive;
     font-size: 7rem;
     font-weight: 800;
@@ -68,7 +68,7 @@
 
     @media screen and (max-width: 1200px) {
       font-size: 1.6rem;
-      margin: 20px 10px 10px;
+      margin: 20px 10px 20px;
       width: 90%;
     }
 
@@ -76,7 +76,7 @@
       font-size: 2rem;
       font-weight: 300;
       color: var(--white-color);
-      text-shadow: -1px 0 black;
+      text-shadow: -2px 0 black;
       text-decoration: none;
 
       @media screen and (max-width: 900px) {
@@ -88,10 +88,11 @@
       }
 
       &:hover {
-        color: var(--darkRed-color);
-        background-color: rgba(233, 227, 201, 0.8);
+        color: var(--secondary-color);
+        background-color: rgba(233, 227, 201, 0.75);
         padding: 5px;
         border-radius: 5px;
+        text-shadow: none;
       }
     }
   }
@@ -110,8 +111,9 @@
         width: 25rem;
         height: 30rem;
         margin: 1rem;
+        padding: 10px;
         border-style: dotted;
-        border-width: 12px;
+        border-width: 15px;
         border-color: var(--white-color);
       }
 
