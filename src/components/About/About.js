@@ -14,13 +14,19 @@ const About = () => {
           It's a Trop Rockin' Christmas!
         </h2>
         <div className="studio-content">
-            <img src={studio} alt="studio"></img>
+          <img src={studio} alt="studio"></img>
           <p className="info-text">
             A two-hour coast to coast radio broadcast all about beaches, tiki
             bars, boat drinks, flip flops, family, and friends exclusively on
             the multi-award-winning Radio Trop Rock.{' '}
-            <a href="https://radiotroprock.com/">Radiotroprock.com</a> is
-            Santa's Internet home for the holidays!
+            <a
+              href="https://radiotroprock.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Radiotroprock.com
+            </a>{' '}
+            is Santa's Internet home for the holidays!
             <br />
             We blend the sounds of the season from your favorite Trop Rock
             artists with Christmas memories, fascinating stories, and holiday

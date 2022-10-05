@@ -1,5 +1,4 @@
 import React from 'react';
-import cookie from '../../assets/images/cookie.jpeg';
 import baking from '../../assets/images/baking.jpeg';
 import './Cookie.scss';
 import Footer from '../Footer/Footer';
@@ -17,7 +16,6 @@ const Cookie = () => {
           You won't be able to stop at one!
         </p>
         <div className='images'>
-          {/* <img className='cookie' src={cookie} alt="sample cookie" /> */}
           <img className='joe' src={baking} alt="joe baking cookies"/>
         </div>
         <p className='charity-text'>
