@@ -1,7 +1,7 @@
 import React from 'react';
 import baking from '../../assets/images/baking.jpeg';
 import './Cookie.scss';
-import { Footer, Paypal } from '../';
+// import { Footer, Paypal } from '../';
 
 const Cookie = () => {
   return (

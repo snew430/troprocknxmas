@@ -5,7 +5,7 @@ import sponsors from '../../info/sponsorInfo';
 import musicians from '../../info/musicianInfo';
 import { Link } from 'react-router-dom';
 
-import Footer from '../Footer/Footer';
+// import Footer from '../Footer/Footer';
 
 const Home = () => {
   return (
