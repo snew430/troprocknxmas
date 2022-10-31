@@ -48,7 +48,7 @@ const About = () => {
             <AboutCard key={person.title} person={person} />
           ))}
         </div>
-        <Footer sticky="bottom" />
+        {/* <Footer sticky="bottom" /> */}
       </div>
     </div>
   );

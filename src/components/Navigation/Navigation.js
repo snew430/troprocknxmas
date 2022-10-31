@@ -42,41 +42,45 @@ const Navigation = () => {
             About Us
           </Link>
         </li>
-        <li className="app__flex p-text">
-          <Link as={Link} to="/home" className="app__flex p-text">
-            Audio
-          </Link>
-        </li>
       </ul>
 
       <div className="app__navbar-menu">
-      <HiMenuAlt4
+        <HiMenuAlt4
           className="cursor-item"
           onClick={() => setToggle(!toggle)}
-      />
+        />
         {toggle && (
           <motion.div
             whileInView={{ x: [300, 0] }}
             transition={{ duration: 0.85, ease: 'easeOut' }}
           >
-            <HiX onClick={() => setToggle(false)} />
+            <HiX
+              className="app__flex p-text"
+              onClick={() => setToggle(false)}
+            />
             <ul>
-              <li className="app__flex p-text">
+              <li>
+                <HiX
+                  className="app__flex p-text"
+                  onClick={() => setToggle(false)}
+                />
+              </li>
+              <li className="app__flex p-text" onClick={() => setToggle(false)}>
                 <Link as={Link} to="/home" className="app__flex p-text">
                   Home
                 </Link>
               </li>
-              <li className="app__flex p-text">
+              <li className="app__flex p-text" onClick={() => setToggle(false)}>
                 <Link as={Link} to="/cookie" className="app__flex p-text">
                   A Tasty Gift Idea
                 </Link>
               </li>
-              <li className="app__flex p-text">
+              <li className="app__flex p-text" onClick={() => setToggle(false)}>
                 <Link as={Link} to="/about" className="app__flex p-text">
                   About Us
                 </Link>
               </li>
-              <li className="app__flex p-text">
+              <li className="app__flex p-text" onClick={() => setToggle(false)}>
                 <Link as={Link} to="/home" className="app__flex p-text">
                   Audio
                 </Link>
