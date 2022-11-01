@@ -59,12 +59,6 @@ const Navigation = () => {
               onClick={() => setToggle(false)}
             />
             <ul>
-              <li>
-                <HiX
-                  className="app__flex p-text"
-                  onClick={() => setToggle(false)}
-                />
-              </li>
               <li className="app__flex p-text" onClick={() => setToggle(false)}>
                 <Link as={Link} to="/home" className="app__flex p-text">
                   Home
@@ -80,11 +74,11 @@ const Navigation = () => {
                   About Us
                 </Link>
               </li>
-              <li className="app__flex p-text" onClick={() => setToggle(false)}>
+              {/* <li className="app__flex p-text" onClick={() => setToggle(false)}>
                 <Link as={Link} to="/home" className="app__flex p-text">
                   Audio
                 </Link>
-              </li>
+              </li> */}
               <li className="app__flex">
                 <img src={logo} alt="trop rock logo"></img>
               </li>
