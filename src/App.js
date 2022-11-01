@@ -11,7 +11,7 @@ function App() {
       <Snowfall
         color="white"
         snowflakeCount={25}
-        style={{ height: '90vh', position: 'fixed' }}
+        style={{ height: '100vh', position: 'fixed' }}
       />
       <Lights />
       <div className="app">
