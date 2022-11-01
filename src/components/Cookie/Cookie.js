@@ -1,7 +1,6 @@
 import React from 'react';
 import baking from '../../assets/images/baking.jpeg';
 import './Cookie.scss';
-// import { Footer, Paypal } from '../';
 
 const Cookie = () => {
   return (
@@ -32,7 +31,6 @@ const Cookie = () => {
           <br />
           More information to come on how you can support this fundraiser!
         </p>
-        {/* <Paypal /> */}
         {/* <Footer sticky="bottom" /> */}
       </div>
     </div>

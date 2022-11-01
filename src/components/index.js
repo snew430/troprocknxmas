@@ -5,6 +5,5 @@ import About from './About/About';
 import Cookie from './Cookie/Cookie';
 import NoMatch from './NoMatch/NoMatch';
 import Lights from './Lights/Lights';
-import Paypal from './Paypal/Paypal';
 
-export { Footer, Home, Navigation, About, NoMatch, Cookie, Lights, Paypal };
+export { Footer, Home, Navigation, About, NoMatch, Cookie, Lights };
