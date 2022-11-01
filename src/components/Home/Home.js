@@ -3,15 +3,14 @@ import './Home.scss';
 import logo from '../../assets/images/TropRockLogo.png';
 import sponsors from '../../info/sponsorInfo';
 import musicians from '../../info/musicianInfo';
+import { Link } from 'react-router-dom';
 
-import Footer from '../Footer/Footer';
-import Lights from '../Lights/Lights';
+// import Footer from '../Footer/Footer';
 
 const Home = () => {
   return (
     <div id="home">
       <div className="background">
-        <Lights />
         <div className="app__flex">
           <img src={logo} alt="trop rock christmas logo" className="logo"></img>
         </div>
@@ -33,6 +32,20 @@ const Home = () => {
             original Coral Reefer Roger Bartlett. We will even go south of
             border with Brent Burns and mix up a batch of gumbo with The Sauce
             Boss.
+          </p>
+
+          <p className="info-text green-card">
+            A tasty gift idea! Vaccaro's Italian Pastry Shop has created a
+            "sweet treat" exclusively for listeners of "A Trop Rockin'
+            Christmas" and your generosity this holiday season will get you a
+            pound of these cannoli-flavored palm tree cookies, while supporting
+            R-O-C Park, a very special place in Madeira Beach, Florida. R-O-C
+            Park is the official charity of Kitty and Melanie of Drop Dead
+            Dangerous, and dedicated to the remembrance of children's lives lost
+            too soon.{' '}
+            <Link as={Link} to="/cookie">
+              Details HERE.
+            </Link>
           </p>
 
           <h3>Trop Rock artists featured this year include:</h3>
@@ -101,7 +114,7 @@ const Home = () => {
             )
           )}
         </div>
-        <Footer sticky="bottom" />
+        {/* <Footer sticky="bottom" /> */}
       </div>
     </div>
   );
