@@ -5,13 +5,12 @@ import { Navigation, Home, About, Cookie } from './components/index';
 import Snowfall from 'react-snowfall';
 
 function App() {
-
   return (
     <Router>
       <Snowfall
         color="white"
         snowflakeCount={25}
-        style={{ height: '90vh', position: 'fixed' }}
+        style={{ height: '100vh', position: 'fixed' }}
       />
       <div className="app">
         <Navigation />
